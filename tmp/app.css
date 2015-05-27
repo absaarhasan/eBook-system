@@ -87,7 +87,7 @@ ul {
     font-weight: 400; }
 
 .banner {
-  background-color: orangered;
+  background-color: #ed1c24;
   text-align: center;
   padding: 1.2rem;
   margin-top: 2rem; }
@@ -95,5 +95,32 @@ ul {
     color: #fff;
     font-weight: 600;
     font-size: 2em; }
+
+.social {
+  padding-bottom: 1rem; }
+  .social h3 {
+    background-color: #00aeef;
+    text-align: center;
+    padding: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 1rem; }
+  .social > div {
+    text-align: center;
+    padding-top: 1rem; }
+
+footer {
+  background-color: #000;
+  padding: 1rem;
+  text-align: right; }
+  footer p {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    line-height: inherit;
+    width: auto;
+    max-width: inherit;
+    text-align: center; }
 
 /*# sourceMappingURL=app.css.map */
