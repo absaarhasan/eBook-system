@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608fdcd6-5685-4a6d-8126-a40e1daa2da9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css.map" afterPath="$PROJECT_DIR$/tmp/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css" afterPath="$PROJECT_DIR$/tmp/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bookoflife.iws" />
@@ -35,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61336035" vertical-offset="5382" max-vertical-offset="8535">
-              <caret line="379" column="29" selection-start-line="379" selection-start-column="29" selection-end-line="379" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.3319838" vertical-offset="7021" max-vertical-offset="8535">
+              <caret line="479" column="359" selection-start-line="479" selection-start-column="359" selection-end-line="479" selection-end-column="359" />
               <folding />
             </state>
           </provider>
@@ -122,8 +117,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
-    <option name="y" value="572" />
+    <option name="x" value="13" />
+    <option name="y" value="367" />
     <option name="width" value="2560" />
     <option name="height" value="855" />
   </component>
@@ -304,7 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="572" width="2560" height="855" extended-state="0" />
+    <frame x="13" y="367" width="2560" height="855" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -587,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61336035" vertical-offset="5382" max-vertical-offset="8535">
-          <caret line="379" column="29" selection-start-line="379" selection-start-column="29" selection-end-line="379" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.3319838" vertical-offset="7021" max-vertical-offset="8535">
+          <caret line="479" column="359" selection-start-line="479" selection-start-column="359" selection-end-line="479" selection-end-column="359" />
           <folding />
         </state>
       </provider>
