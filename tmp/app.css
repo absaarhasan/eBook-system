@@ -1,3 +1,7 @@
+/*------------- GLOBAL VARS -----------------*/
+/*------------- FUNCTIONS -----------------*/
+/*------------- MIXINS -----------------*/
+/*------------- GLOBAL STYLES -----------------*/
 * {
   border: 0;
   outline: 0;
@@ -5,125 +9,417 @@
   padding: 0;
   font-family: 'tk-arno-pro'; }
 
-/* Define mobile styles */
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-/* min-width 641px, medium screens */
-/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-/* min-width 1025px, large screens */
-/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-/* min-width 1441px, xlarge screens */
-/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-/* min-width 1921px, xxlarge screens */
-/* min-width 1921px, xxlarge screens */
-/* min-width 1921px, xxlarge screens */
-@media only screen {
-  body {
-    font-size: 20px; } }
-@media only screen and (max-width: 40em) {
-  body {
-    font-size: 20px; } }
-@media only screen and (min-width: 40.063em) {
-  body {
-    font-size: 20px; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  body {
-    font-size: 20px; } }
-@media only screen and (min-width: 64.063em) {
-  body {
-    font-size: 16px; } }
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
-  body {
-    font-size: 16px; } }
-@media only screen and (min-width: 90.063em) {
-  body {
-    font-size: 18px; } }
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
-  body {
-    font-size: 18px; } }
-@media only screen and (min-width: 120.063em) {
-  body {
-    font-size: 24px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2 / 1), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  body {
-    font-size: 22px; } }
-@media only screen and (min-width: 1600px) and (max-width: 2560px) {
-  body {
-    font-size: 44px; } }
-img {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-  max-width: 50rem; }
-
-h2 {
-  font-size: 1.2em;
-  margin: 2em auto 0 auto;
-  color: #000;
-  width: 80%;
-  max-width: 45rem;
-  font-weight: 600;
-  display: block; }
-
-p {
-  font-size: 1em;
-  margin: 1em auto 0 auto;
-  width: 80%;
-  line-height: 1.4em;
-  color: #333;
-  text-align: justify;
-  max-width: 45rem;
-  font-weight: 400;
-  display: block; }
-
 sup {
   line-height: 1em; }
 
-ul {
-  list-style-position: inside;
-  max-width: 45rem;
-  font-size: 1em;
-  margin: 1em auto 0 auto;
-  width: 80%;
-  line-height: 1.4em; }
-  ul li {
-    color: #333;
-    font-weight: 400; }
+/*------------- canvas -----------------*/
+html.paginated, body.paginated {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
 
-.banner {
-  background-color: #ed1c24;
-  text-align: center;
-  padding: 1.2rem;
-  margin-top: 2rem; }
-  .banner h3 {
+/*------------- ajax loader -----------------*/
+body.paginated {
+  background-image: url("../images/712.gif ");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/*------------- Menu System -----------------*/
+div.menu {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: -100%;
+  background-color: #1288a1;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  -o-transition: top 0.15s ease-out;
+  -ms-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+  overflow-y: scroll; }
+  div.menu.show {
+    top: 0; }
+  div.menu .close {
+    text-align: center; }
+    div.menu .close button {
+      text-indent: -999999px;
+      background-repeat: no-repeat;
+      background-image: url("../images/icon_close.svg ");
+      background-size: 100% 100%;
+      background-color: transparent;
+      cursor: pointer; }
+      div.menu .close button:hover {
+        background-image: url("../images/icon_close_hover.svg "); }
+  div.menu ul {
+    box-sizing: border-box;
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 0;
+    font-size: 0; }
+  div.menu li {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 0;
+    font-size: 0; }
+  div.menu .social span {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: auto;
+    text-align: center; }
+    div.menu .social span a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 400;
+      position: relative;
+      display: inline-block; }
+  div.menu .social .icon {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  div.menu .facebook span {
+    background-color: #394f84; }
+    div.menu .facebook span.icon {
+      background-image: url("../images/social_facebook.svg "); }
+  div.menu .twitter span {
+    background-color: #1a92c9; }
+    div.menu .twitter span.icon {
+      background-image: url("../images/social_twitter.svg "); }
+  div.menu .google span {
+    background-color: #bf3831; }
+    div.menu .google span.icon {
+      background-image: url("../images/social_googleplus.svg "); }
+  div.menu .fonts {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+    text-align: center; }
+    div.menu .fonts span {
+      color: #fff;
+      box-sizing: border-box;
+      display: inline-block; }
+    div.menu .fonts button {
+      box-sizing: border-box;
+      display: inline-block;
+      background-color: transparent;
+      text-indent: -99999px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+      line-height: inherit; }
+      div.menu .fonts button.plus {
+        background-image: url("../images/icon_plus.svg "); }
+      div.menu .fonts button.minus {
+        background-image: url("../images/icon_minus.svg "); }
+  div.menu .note {
+    text-align: center; }
+    div.menu .note p {
+      color: #fff; }
+
+/*------------- Screen Div -----------------*/
+.screen {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; }
+  .screen.left {
+    left: -100%; }
+  .screen.right {
+    left: 100%; }
+  .screen.active {
+    left: 0;
+    z-index: 2; }
+  .screen.image {
+    text-align: center;
+    z-index: 4; }
+  .screen img {
+    height: 95%;
+    width: auto;
+    max-width: 100%; }
+  .screen p {
+    color: #333;
+    text-align: justify; }
+  .screen ul {
+    list-style-position: inside; }
+    .screen ul li {
+      color: #333; }
+  .screen h3 {
+    background-color: red;
+    text-align: center;
     color: #fff;
+    margin-top: 25%;
+    padding: 1em;
+    font-size: 2.5em; }
+
+/*------------- navigation options -----------------*/
+.menu-button {
+  z-index: 3;
+  position: absolute;
+  background-image: url("../images/icon_menu.svg ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  left: 50%;
+  background-color: transparent;
+  text-indent: -999999px;
+  cursor: pointer; }
+  .menu-button:hover, .menu-button:active {
+    background-image: url("../images/icon_menu_hover.svg "); }
+
+.pagination {
+  z-index: 3;
+  position: absolute;
+  left: 50%; }
+  .pagination button {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    top: 0;
+    background-color: transparent;
+    text-indent: -99999999px;
+    cursor: pointer; }
+    .pagination button.prev {
+      left: 0;
+      background-image: url("../images/icon_left.svg "); }
+    .pagination button.prev:hover {
+      left: 0;
+      background-image: url("../images/icon_left_hover.svg "); }
+    .pagination button.next {
+      right: 0;
+      background-image: url("../images/icon_right.svg "); }
+    .pagination button.next:hover {
+      right: 0;
+      background-image: url("../images/icon_right_hover.svg "); }
+
+/* ---------------- BOOK CSS ------------------*/
+.fulltext {
+  font-size: 1.4em; }
+  .fulltext img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 50rem; }
+  .fulltext h2 {
+    font-size: 1.2em;
+    margin: 2em auto 0 auto;
+    color: #000;
+    width: 85%;
+    max-width: 45rem;
     font-weight: 600;
+    display: block; }
+  .fulltext p {
+    font-size: 1em;
+    margin: 1em auto 0 auto;
+    width: 85%;
+    line-height: 1.4em;
+    color: #333;
+    text-align: justify;
+    max-width: 45rem;
+    font-weight: 400;
+    display: block; }
+  .fulltext sup {
+    line-height: 1em; }
+  .fulltext ul {
+    list-style-position: inside;
+    max-width: 45rem;
+    font-size: 1em;
+    margin: 1em auto 0 auto;
+    width: 85%;
+    line-height: 1.4em; }
+    .fulltext ul li {
+      color: #333;
+      font-weight: 400; }
+  .fulltext h3 {
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    margin-top: 25%;
+    padding: 1em;
     font-size: 2em; }
 
-.social {
-  padding-bottom: 1rem; }
-  .social h3 {
-    background-color: #26cbff;
-    text-align: center;
-    padding: 1.2rem;
-    color: #fff;
-    font-weight: 600;
-    font-size: 2em;
-    margin-top: 1rem; }
-  .social > div {
-    text-align: center;
-    padding-top: 1rem; }
+.mobile {
+  display: none; }
 
-footer {
-  background-color: #000;
-  padding: 1rem;
-  text-align: right; }
-  footer p {
-    color: #fff;
-    font-size: 1em;
-    margin: 0;
-    line-height: inherit;
-    width: auto;
-    max-width: inherit;
-    text-align: center; }
+div.menu .close {
+  padding: 3.25rem 0 0.5rem 0; }
+  div.menu .close button {
+    height: 2.5rem;
+    width: 5rem; }
+div.menu ul {
+  width: 16.5rem; }
+div.menu li {
+  margin-top: 0.5rem; }
+div.menu .social span {
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0.25rem;
+  font-size: 1.1rem;
+  line-height: 1rem; }
+  div.menu .social span a {
+    top: 2.15rem;
+    font-size: 0.85em;
+    letter-spacing: 0.05em; }
+    div.menu .social span a:hover, div.menu .social span a:active {
+      font-size: 1em; }
+div.menu .social .icon {
+  background-size: 40% 40%; }
+div.menu .fonts {
+  margin-left: 0.25rem;
+  width: 16rem; }
+  div.menu .fonts span {
+    font-size: 1rem;
+    line-height: 1.1rem;
+    width: 34%;
+    vertical-align: middle; }
+  div.menu .fonts button {
+    width: 33%;
+    height: 3.75rem; }
+    div.menu .fonts button.plus {
+      background-size: 1.25rem auto; }
+    div.menu .fonts button.minus {
+      background-size: 1.25rem auto; }
+div.menu .note {
+  margin-top: 0.5rem; }
+  div.menu .note p {
+    font-size: 0.8rem; }
+
+/*------------- Screen Div -----------------*/
+.screen p {
+  margin-top: 15%;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding: 0 15%; }
+.screen ul {
+  margin-top: 15%;
+  padding: 0 15%; }
+  .screen ul li {
+    font-size: 1.8rem;
+    line-height: 2.4rem; }
+
+/*------------- navigation options -----------------*/
+.menu-button {
+  height: 2.55rem;
+  width: 2.25rem;
+  background-image: url("../images/icon_menu.svg ");
+  top: 5%;
+  margin-left: -1.15rem; }
+  .menu-button:hover, .menu-button:active {
+    background-image: url("../images/icon_menu_hover.svg "); }
+
+.pagination {
+  width: 15.5rem;
+  height: 2.25rem;
+  bottom: 10%;
+  margin-left: -7.75rem; }
+  .pagination button {
+    width: 1.8rem;
+    height: 2.2rem; }
+
+@media only screen and (min-width: 801px) {
+  html {
+    font-size: 18px; } }
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 20px; } }
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 22px; } }
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 24px; } }
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 26px; } }
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 28px; } }
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 30px; } }
+@media only screen and (min-width: 2200px) {
+  html {
+    font-size: 32px; } }
+@media only screen and (min-width: 2400px) {
+  html {
+    font-size: 34px; } }
+@media only screen and (min-width: 2600px) {
+  html {
+    font-size: 36px; } }
+@media only screen and (max-device-width: 800px), only screen and (max-width: 800px) {
+  .mobile {
+    display: inherit; }
+
+  .desktop {
+    display: none; }
+
+  div.menu ul {
+    margin-top: 1.25rem; }
+
+  /*------------- Screen Div -----------------*/
+  .screen p {
+    margin-top: 1.66667rem;
+    font-size: 1.33333rem;
+    line-height: 1.83333rem;
+    padding: 0 6%; }
+  .screen ul {
+    margin-top: 1.66667rem;
+    padding: 0 6%; }
+    .screen ul li {
+      font-size: 1.33333rem;
+      line-height: 1.83333rem; } }
+@media only screen and (max-device-width: 800px) and (max-width: 800px), only screen and (max-width: 800px) and (max-width: 800px) {
+  html {
+    font-size: 18px; } }
+@media only screen and (max-device-width: 800px) and (max-width: 700px), only screen and (max-width: 800px) and (max-width: 700px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (max-device-width: 800px) and (max-width: 600px), only screen and (max-width: 800px) and (max-width: 600px) {
+  html {
+    font-size: 14px; } }
+@media only screen and (max-device-width: 800px) and (max-width: 500px), only screen and (max-width: 800px) and (max-width: 500px) {
+  html {
+    font-size: 12px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 800px), only screen and (max-width: 800px) and (max-device-width: 800px) {
+  html {
+    font-size: 17px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 700px), only screen and (max-width: 800px) and (max-device-width: 700px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 600px), only screen and (max-width: 800px) and (max-device-width: 600px) {
+  html {
+    font-size: 15px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 500px), only screen and (max-width: 800px) and (max-device-width: 500px) {
+  html {
+    font-size: 14px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 400px), only screen and (max-width: 800px) and (max-device-width: 400px) {
+  html {
+    font-size: 13px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 300px), only screen and (max-width: 800px) and (max-device-width: 300px) {
+  html {
+    font-size: 12px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  html {
+    font-size: 62px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 2560px), only screen and (min-resolution: 192dpi) and (max-device-width: 2560px) {
+  html {
+    font-size: 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1600px) {
+  html {
+    font-size: 36px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) {
+  html {
+    font-size: 22px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 960px), only screen and (min-resolution: 192dpi) and (max-device-width: 960px) {
+  html {
+    font-size: 20px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 800px), only screen and (min-resolution: 192dpi) and (max-device-width: 800px) {
+  html {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=app.css.map */

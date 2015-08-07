@@ -5288,11 +5288,11 @@
        y="212.36211"
        id="text19166"
        xml:space="preserve"
-       style="font-size:39.99998474px;font-style:normal;font-weight:600;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:tk-arno-pro"><tspan
+       style="font-size:39.99998474px;font-style:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"><tspan
          x="125.46367"
          y="212.36211"
          id="tspan19168"
-         style="font-size:71.99996948px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:tk-arno-pro">The Book of Life</tspan></text>
+         style="font-size:71.99996948px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;">The Book of Life</tspan></text>
   </g>
   <g
      id="layer12"
@@ -5302,24 +5302,24 @@
        y="309.54819"
        id="text19171"
        xml:space="preserve"
-       style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:tk-arno-pro Italic"><tspan
+       style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke:none;"><tspan
          x="263.32416"
          y="309.54819"
          id="tspan19173"
-         style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;font-family:tk-arno-pro Italic">Part II: Science</tspan></text>
+         style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;">Part II: Science</tspan></text>
   </g>
   <g
      id="layer13"
      style="display:inline">
     <text
-       x="290.37701"
+       x="191.75839"
        y="932.07617"
        id="text19180"
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:400;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:tk-arno-pro"><tspan
-         x="290.37701"
+       style="font-size:40px;font-style:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"><tspan
+         x="191.75839"
          y="932.07617"
          id="tspan19182"
-         style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;font-family:tk-arno-pro Italic">Free eBook</tspan></text>
+         style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;">Mobile | Tablet | Desktop </tspan></text>
   </g>
 </svg>

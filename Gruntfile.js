@@ -4,8 +4,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.config('concat', {
         scripts: {
-            src: ['bower_components/jquery/dist/jquery.js',
-                'bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.js',
+            src: [
+                //'bower_components/jquery/dist/jquery.js',
+                //'bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.js',
                 'js/main.js'],
             dest: 'tmp/main.js'
         }
@@ -15,7 +16,7 @@ module.exports = function(grunt) {
     grunt.config('uglify', {
         scripts: {
             files: {
-                'public/assets/app.js' : 'tmp/main.js'
+                'public/assets/main.js' : 'tmp/main.js'
             }
         }
     });
@@ -91,7 +92,7 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('build', "Builds the application.",
-        ['concat:scripts', 'sass', 'cssmin', 'uglify' ]);
+        [/*'concat:scripts',*/ 'svgmin' , 'sass', 'cssmin'/*, 'uglify' */]);
 
 
 };

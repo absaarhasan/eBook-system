@@ -1104,17 +1104,6 @@
          result="composite2"
          id="feComposite7455" />
     </filter>
-    <filter
-       x="-0.54260868"
-       y="-0.18086956"
-       width="2.0852175"
-       height="1.3617392"
-       color-interpolation-filters="sRGB"
-       id="filter13001">
-      <feGaussianBlur
-         id="feGaussianBlur13003"
-         stdDeviation="39.33913" />
-    </filter>
     <radialGradient
        cx="238.51393"
        cy="493.08792"
@@ -1181,17 +1170,6 @@
        xlink:href="#linearGradient4442-4"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0237818,0,0,0.97391755,-179.46776,-2.30652)" />
-    <filter
-       x="-0.081649013"
-       y="-0.83800215"
-       width="1.163298"
-       height="2.6760044"
-       color-interpolation-filters="sRGB"
-       id="filter13189">
-      <feGaussianBlur
-         id="feGaussianBlur13191"
-         stdDeviation="12.812808" />
-    </filter>
     <linearGradient
        x1="292.57834"
        y1="511.57129"
@@ -1358,35 +1336,6 @@
          style="stop-color:#ffffff;stop-opacity:0"
          offset="1" />
     </linearGradient>
-    <filter
-       x="-0.43554291"
-       y="-0.27951324"
-       width="1.8710858"
-       height="1.5590265"
-       color-interpolation-filters="sRGB"
-       id="filter4602">
-      <feGaussianBlur
-         id="feGaussianBlur4604"
-         stdDeviation="28.064911" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       id="filter5343">
-      <feGaussianBlur
-         id="feGaussianBlur5345"
-         stdDeviation="2.3959414" />
-    </filter>
-    <filter
-       x="-0.97331518"
-       y="-0.32896966"
-       width="2.9466305"
-       height="1.6579393"
-       color-interpolation-filters="sRGB"
-       id="filter5345">
-      <feGaussianBlur
-         id="feGaussianBlur5347"
-         stdDeviation="98.142616" />
-    </filter>
     <linearGradient
        x1="518.34485"
        y1="529.59888"
@@ -1518,16 +1467,16 @@
        y="310.07648"
        id="text5384"
        xml:space="preserve"
-       style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;stroke:none;font-family:tk-arno-pro"><tspan
+       style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;stroke:none;"><tspan
          x="264.17407"
          y="310.07648"
          id="tspan5386"><tspan
            id="tspan5410"
-           style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;font-family:tk-arno-pro"><tspan
+           style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;"><tspan
              id="tspan5412"
-             style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;font-family:tk-arno-pro"><tspan
+             style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;"><tspan
                id="tspan5414"
-               style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;font-family:tk-arno-pro">Part I: Religion</tspan></tspan></tspan></tspan></text>
+               style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:0.85490196;">Part I: Religion</tspan></tspan></tspan></tspan></text>
   </g>
   <g
      id="layer1"
@@ -1537,22 +1486,22 @@
        y="212.36218"
        id="text5374"
        xml:space="preserve"
-       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:tk-arno-pro"><tspan
+       style="font-size:72px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"><tspan
          x="125.46355"
          y="212.36218"
          id="tspan5376"
-         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:tk-arno-pro">The Book of Life</tspan></text>
+         style="font-size:72px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;">The Book of Life</tspan></text>
   </g>
   <g
      id="layer4">
     <text
-       x="290.37701"
+       x="191.75839"
        y="932.07648"
        id="text5439"
        xml:space="preserve"
-       style="font-size:36px;font-style:italic;font-variant:normal;font-weight:400;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;font-family:tk-arno-pro"><tspan
-         x="290.37701"
+       style="font-size:36px;font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;"><tspan
+         x="191.75839"
          y="932.07648"
-         id="tspan5441">Free eBook</tspan></text>
+         id="tspan5441">Mobile | Tablet | Desktop</tspan></text>
   </g>
 </svg>
