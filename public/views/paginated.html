@@ -2,12 +2,12 @@
 <button class="menu-button desktop " ng-click="showMenu()" >Menu</button>
 
 
-    <div class="screen" ng-repeat="screen in activeScreens"  ng-init="screenIndex = $index"  hm-swipedown="showMenu()" hm-swipeleft="swipePage(nextChapter,nextPage)" hm-swiperight="swipePage(prevChapter,prevPage)" hm-pressup="pressScreen()" ng-class="{ 'image' : screen.type == 'image', 'active' :   screenIndex == (activePage -1), 'left' :  screenIndex < (activePage -1), 'right' :   screenIndex > (activePage -1)}" ng-bind-html="trustHtml(screen.screen)" ui-sref="pagination({chapter: nextChapter, page: nextPage})">
+    <div class="screen" ng-repeat="screen in activeScreens"  ng-init="screenIndex = $index"  hm-swipedown="showMenu()" hm-swipeleft="updateDisplay(nextScreen)" hm-swiperight="updateDisplay(prevScreen)" hm-pressup="pressScreen()" hm-rotate="resetDisplay()" ng-class="{ 'image' : screen.type == 'image', 'active' :   screenIndex == (activeScreen -1), 'left' :  screenIndex < (activeScreen -1), 'right' :   screenIndex > (activeScreen -1)}" ng-bind-html="trustHtml(screen.screen)" ng-click="updateDisplay(nextScreen)">
 
     </div>
 
 
 <div class="pagination desktop">
-    <button class="prev" ui-sref="pagination({chapter: prevChapter, page: prevPage})">Previous</button>
-    <button class="next" ui-sref="pagination({chapter: nextChapter, page: nextPage})">Next</button>
+    <button class="prev" ng-click="updateDisplay(prevScreen)">Previous</button>
+    <button class="next" ng-click="updateDisplay(nextScreen)">Next</button>
 </div>

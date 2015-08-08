@@ -22,7 +22,7 @@ var app = angular.module('bol', ['ui.router','hmTouchEvents'])
             controller: SetupCtrl
         })
         .state('pagination', {
-            url: "/:chapter/:page",
+            url: "/:chapter/:paragraph",
             parent: 'main',
             templateUrl: "views/paginated.html",
             controller: PaginatedCtrl

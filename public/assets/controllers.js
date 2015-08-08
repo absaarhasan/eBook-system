@@ -41,6 +41,16 @@ function MainCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout, $wi
 
     };
 
+    $scope.fullBook = function() {
+            $scope.hideMenu();
+            $state.go('fulltext', {reload: false, inherit: true, location: true, notify: false});
+            $timeout(function() {
+                $state.go('fulltext', {reload: true, inherit: true, location: true, notify: true});
+            }, 0);
+
+
+    }
+
     $scope.activeScreens = [];
 
     $scope.maxChapters = 22;
@@ -62,31 +72,27 @@ function MainCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout, $wi
 
 function SetupCtrl( $state) {
 
-    $state.go('pagination', { chapter: 1, page: 1 });
-
-
+    $state.go('pagination', { chapter: 1, paragraph: 1  });
 
 }
 
 function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $timeout, $window) {
 
-       document.getElementsByTagName('html')[0].classList.remove("paginated");
-       document.getElementsByTagName('body')[0].classList.remove("paginated");
-       document.getElementsByTagName('html')[0].classList.add("paginated");
-       document.getElementsByTagName('body')[0].classList.add("paginated");
+    document.getElementsByTagName('html')[0].classList.remove("fullbook");
 
     var activeChapter = parseInt($stateParams.chapter);
 
-
     if (activeChapter > $scope.maxChapters || activeChapter < 1 ){
 
-        $state.go('pagination', { chapter: 1, page: 1 });
 
-    } else if(!$rootScope.previousState || $rootScope.previousParams.chapter != $stateParams.chapter ){
+        $state.go('pagination', { chapter: 1, paragraph: 1 });
+
+    } else {
 
         var jsonURL = "/json/chapter" + activeChapter + ".json";
 
-        $http.get(jsonURL, { cache: true}).success(function(data) {
+        $http.get(jsonURL , { cache: true}).success(function(data) {
+
 
                 var screens = data.chapter;
 
@@ -98,81 +104,86 @@ function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $
                     }
                 }
 
-                $scope.$parent.activeScreens = display;
-                $timeout(function() {
-                    displayScreens();
-                },0);
+
+                $scope.activeScreens = display;
+
+
+                $scope.updateDisplay($stateParams.paragraph);
 
 
         }).error(function() {
-            console.log('ajax fail');
-            $window.location.reload();
+
+           $window.location.reload();
         });;
 
-    } else {
-
-        displayScreens();
-
     }
 
+    $scope.updateDisplay = function(screen) {
 
-    function displayScreens (){
 
-        var activePage;
+        var screenCount = $scope.activeScreens.length;
 
-        if($stateParams.page == 'last'){
+        if (screen == 'final'){
 
-            activePage = $scope.activeScreens.length;
+            screen = screenCount;
 
-        }else{
-
-            activePage = parseInt($stateParams.page);
 
         }
 
-        var maxScreens = $scope.activeScreens.length;
+        screen = parseInt(screen);
 
-        if (activePage > maxScreens || activePage < 1 ){
 
-            $state.go('pagination', { chapter: activeChapter, page: 1 });
 
-        } else if (activePage ==  maxScreens){
+        if (screen > screenCount){
 
-            $scope.nextChapter =  activeChapter + 1 ;
-            $scope.nextPage =  1;
-            $scope.prevChapter =  activeChapter;
-            $scope.prevPage =  activePage  - 1 ;
 
-        } else if (activePage > 1){
 
-            $scope.nextChapter =  activeChapter;
-            $scope.nextPage =  activePage + 1 ;
-            $scope.prevChapter =  activeChapter;
-            $scope.prevPage =  activePage - 1 ;
+            var nextChapter = activeChapter + 1;
 
-        } else if (activePage == 1){
 
-            $scope.nextChapter =  activeChapter;
-            $scope.nextPage =  activePage + 1 ;
-            $scope.prevChapter =  activeChapter -1 ;
-            $scope.prevPage =  'last';
+            $state.transitionTo('pagination', { chapter: nextChapter, paragraph: 1 }, {reload: false, inherit: true, location: true, notify: false});
+
+            $timeout(function() {
+                $state.transitionTo('pagination', { chapter: nextChapter, paragraph: 1 }, {reload: true, inherit: true, location: true, notify: true});
+            }, 0);
+
+
+        } else if(screen < 1){
+            var prevChapter = activeChapter - 1;
+
+
+            $state.transitionTo('pagination', { chapter: prevChapter, paragraph: 'final' }, {reload: false, inherit: true, location: true, notify: false});
+
+            $timeout(function() {
+                $state.transitionTo('pagination', { chapter: prevChapter, paragraph: 'final' }, {reload: true, inherit: true, location: true, notify: true});
+            }, 0);
+
+        } else if(screen >= 1 && screen <= screenCount ){
+
+
+
+            $scope.activeScreen = screen;
+            $scope.nextScreen = screen + 1;
+            $scope.prevScreen = screen - 1;
+
+            $state.go('pagination', { chapter: activeChapter , paragraph: screen }, {notify: false});
 
         }
 
-        $scope.activePage = activePage;
-    }
 
-    $scope.swipePage = function(chapter,page)
+    };
+
+
+    $scope.resetDisplay = function()
         {
-            $state.go('pagination', { chapter: chapter, page: page })
+            $window.location.reload();
         }
+
 
     $scope.pressScreen = function()
-    {
-
-     //   $window.alert('working');
-        $state.go('fulltext')
-    }
+        {
+            $state.go('fulltext')
+        }
 
     $scope.trustHtml = function(htmlCode)
         {
@@ -180,6 +191,7 @@ function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $
         }
 
     if(!$rootScope.previousState){
+
         $http.get('json/chapter1.json', { cache: true});
         $http.get('json/chapter2.json', { cache: true});
         $http.get('json/chapter3.json', { cache: true});
@@ -203,17 +215,21 @@ function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $
         $http.get('json/chapter21.json', { cache: true});
         $http.get('json/chapter22.json', { cache: true});
 
+
     }
+
+
+
 
 }
 
 function FulltextCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout, $sce) {
 
-
+    document.getElementsByTagName('html')[0].classList.add("fullbook");
+/*
     $http.get('/json/full_book.json').success(function(data) {
 
-            document.getElementsByTagName('html')[0].classList.remove("paginated");
-            document.getElementsByTagName('body')[0].classList.remove("paginated");
+
 
             var screens = data.book;
 
@@ -225,12 +241,12 @@ function FulltextCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout,
                 }
             }
 
-            $scope.$parent.activeScreens = display;
+            $scope.activeScreens = display;
 
 
         }).error(function() {
             console.log('ajax fail');
-            $window.location.reload();
+
         });;
 
     $scope.trustHtml = function(htmlCode)
@@ -238,5 +254,5 @@ function FulltextCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout,
         return $sce.trustAsHtml(htmlCode);
     }
 
-
+*/
 }

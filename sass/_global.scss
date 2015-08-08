@@ -45,7 +45,7 @@ sup{
 
 /*------------- canvas -----------------*/
 
-html.paginated, body.paginated {
+html, body {
   height:100%;
   width:100%;
   overflow: hidden;
@@ -56,7 +56,7 @@ html.paginated, body.paginated {
 
 /*------------- ajax loader -----------------*/
 
-body.paginated {
+body {
   background-image: url("../images/712.gif ");
   background-repeat: no-repeat;
   background-position: center center;
@@ -183,12 +183,6 @@ div.menu {
 
 
 
-    span{
-      color:$txt3;
-      box-sizing: border-box;
-      display: inline-block;
-    }
-
     button{
 
       box-sizing: border-box;
@@ -207,6 +201,11 @@ div.menu {
 
       &.minus{
         background-image: url("../images/icon_minus.svg ");
+
+      }
+
+      &.text{
+        background-image: url("../images/icon_text.svg ");
 
       }
     }
@@ -240,6 +239,11 @@ div.menu {
   width:100%;
   height:100%;
   overflow-y: scroll;
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition:  left 0.15s ease-out;
+  -o-transition:  left 0.15s ease-out;
+  -ms-transition:  left 0.15s ease-out;
+  transition:  left 0.15s ease-out;
 
 
   &.left{
@@ -368,6 +372,18 @@ div.menu {
 
 
 /* ---------------- BOOK CSS ------------------*/
+
+html.fullbook {
+
+  overflow: auto;
+
+  body {
+    overflow: auto;
+    background-image:none;
+
+  }
+
+}
 
 .fulltext {
 

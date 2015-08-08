@@ -2,177 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608fdcd6-5685-4a6d-8126-a40e1daa2da9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/712.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_desktop.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_global.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_mobile.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/angular-hammer-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/scripts/prettify/Apache-License-2.0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/Gruntfile.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/JSON_BUILDER.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/JSON_BUILDER.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_desktop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_mobile.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/angular.hammer.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/angular.hammer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/angular.hammer.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/angular.hammer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/angular.hammer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter10.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter11.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter12.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter13.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter14.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter15.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter16.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter17.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter18.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter19.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter20.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter21.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter22.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter4.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/chapter9.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/full_book.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/json/full_book_min.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/fulltext.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/gestures.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/hammer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_close_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_close_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_left_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_left_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_left_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_menu_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_menu_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_menu_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_minus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_minus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_plus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_plus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_right_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/icon_right_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/menu_system-assets/icon_right_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/styles/jsdoc-default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/jsdoc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/scripts/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/scripts/linenumber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/module-hmTouchEvents.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-resource/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hammerjs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/paginated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/styles/prettify-jsdoc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/styles/prettify-tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/doc/scripts/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ryanmullins-angular-hammer/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/social_facebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/social_facebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/social_googleplus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/social_googleplus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/social_twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/social_twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-ui-router/src/viewScroll.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/cityFlower_sideElevation.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/cityFlower_topElevation.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/cover_pt_01.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/cover_pt_02.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/diagram_treeoflife.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svg/jeruselum_sideElevation.svg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/original.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/original.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_desktop.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_desktop.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_global.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_global.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_mobile.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_mobile.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_desktop.scss" afterPath="$PROJECT_DIR$/sass/_desktop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_global.scss" afterPath="$PROJECT_DIR$/sass/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_mobile.scss" afterPath="$PROJECT_DIR$/sass/_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css.map" afterPath="$PROJECT_DIR$/tmp/app.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css" afterPath="$PROJECT_DIR$/tmp/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.js" afterPath="$PROJECT_DIR$/public/assets/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/cover_pt_01.svg" afterPath="$PROJECT_DIR$/public/images/cover_pt_01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/cover_pt_02.svg" afterPath="$PROJECT_DIR$/public/images/cover_pt_02.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/controllers.js" afterPath="$PROJECT_DIR$/public/assets/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/fulltext.html" afterPath="$PROJECT_DIR$/public/views/fulltext.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/main.html" afterPath="$PROJECT_DIR$/public/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/paginated.html" afterPath="$PROJECT_DIR$/public/views/paginated.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bookoflife.iws" />
@@ -196,108 +40,7 @@
     <favorites_list name="bookoflife" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="780">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14723033" vertical-offset="4" max-vertical-offset="690">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fulltext.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/fulltext.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paginated.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/paginated.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="270">
-              <caret line="4" column="456" selection-start-line="4" selection-start-column="417" selection-end-line="4" selection-end-column="456" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.666667" vertical-offset="810" max-vertical-offset="3720">
-              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="full_book.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/json/full_book.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="23940">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_global.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.208333" vertical-offset="6013" max-vertical-offset="6765">
-              <caret line="414" column="32" selection-start-line="414" selection-start-column="32" selection-end-line="414" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.897959" vertical-offset="1110" max-vertical-offset="1785">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_desktop.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_desktop.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.333334" vertical-offset="1483" max-vertical-offset="2580">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -319,7 +62,6 @@
         <option value="$PROJECT_DIR$/public/images/icon_close.svg" />
         <option value="$PROJECT_DIR$/public/images/icon_plus.svg" />
         <option value="$PROJECT_DIR$/public/images/icon_menu.svg" />
-        <option value="$PROJECT_DIR$/public/views/main.html" />
         <option value="$PROJECT_DIR$/public/original.html" />
         <option value="$PROJECT_DIR$/public/JSON_BUILDER.html" />
         <option value="$PROJECT_DIR$/public/json/chapter2.json" />
@@ -346,16 +88,17 @@
         <option value="$PROJECT_DIR$/public/JSON_BUILDER.json" />
         <option value="$PROJECT_DIR$/public/json/full_book_min.json" />
         <option value="$PROJECT_DIR$/public/json/chapter1.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/images/icon_minus.svg" />
         <option value="$PROJECT_DIR$/svg/menu_system-assets/icon_close_hover.svg" />
         <option value="$PROJECT_DIR$/sass/_desktop.scss" />
-        <option value="$PROJECT_DIR$/sass/_mobile.scss" />
-        <option value="$PROJECT_DIR$/public/views/paginated.html" />
         <option value="$PROJECT_DIR$/public/assets/app.js" />
-        <option value="$PROJECT_DIR$/public/assets/controllers.js" />
+        <option value="$PROJECT_DIR$/sass/_mobile.scss" />
         <option value="$PROJECT_DIR$/sass/_global.scss" />
+        <option value="$PROJECT_DIR$/public/views/main.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/views/fulltext.html" />
+        <option value="$PROJECT_DIR$/public/views/paginated.html" />
+        <option value="$PROJECT_DIR$/public/assets/controllers.js" />
       </list>
     </option>
   </component>
@@ -414,9 +157,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="364" />
-    <option name="y" value="227" />
-    <option name="width" value="1373" />
+    <option name="x" value="126" />
+    <option name="y" value="22" />
+    <option name="width" value="1992" />
     <option name="height" value="1313" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -571,6 +314,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -653,22 +414,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="364" y="227" width="1373" height="1313" extended-state="0" />
-    <editor active="true" />
+    <frame x="126" y="22" width="1992" height="1313" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4152334" sideWeight="0.49962434" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4152334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4152334" sideWeight="0.5003756" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4152334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968071" sideWeight="0.5004055" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1878287" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12820514" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -764,14 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6570997" vertical-offset="0" max-vertical-offset="1035">
           <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/original.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6148036" vertical-offset="6898" max-vertical-offset="8520">
-          <caret line="487" column="0" selection-start-line="487" selection-start-column="0" selection-end-line="493" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1000,50 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.583333" vertical-offset="148" max-vertical-offset="810">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.333334" vertical-offset="1483" max-vertical-offset="2580">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/full_book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="23940">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/original.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04709576" vertical-offset="0" max-vertical-offset="3255">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667" vertical-offset="810" max-vertical-offset="3720">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1056,42 +769,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/full_book.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20392749" vertical-offset="0" max-vertical-offset="23940">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/icon_text.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28425655" vertical-offset="0" max-vertical-offset="686">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.208333" vertical-offset="6013" max-vertical-offset="6765">
-          <caret line="414" column="32" selection-start-line="414" selection-start-column="32" selection-end-line="414" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fulltext.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/paginated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="270">
-          <caret line="4" column="456" selection-start-line="4" selection-start-column="417" selection-end-line="4" selection-end-column="456" />
+        <state vertical-scroll-proportion="-19.458334" vertical-offset="5278" max-vertical-offset="7005">
+          <caret line="383" column="3" selection-start-line="383" selection-start-column="3" selection-end-line="383" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="780">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="780">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/paginated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="270">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5007587" vertical-offset="405" max-vertical-offset="3960">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/original.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40785497" vertical-offset="0" max-vertical-offset="8520">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="525" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/fulltext.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95468277" vertical-offset="7018" max-vertical-offset="7770">
+          <caret line="510" column="10" selection-start-line="510" selection-start-column="10" selection-end-line="510" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14723033" vertical-offset="4" max-vertical-offset="690">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.25655976" vertical-offset="4" max-vertical-offset="690">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9259819" vertical-offset="0" max-vertical-offset="2565">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6283988" vertical-offset="124" max-vertical-offset="810">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
       </provider>

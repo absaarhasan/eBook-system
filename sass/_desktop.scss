@@ -67,13 +67,6 @@ div.menu {
     width: em(320px, $bfs);
 
 
-    span{
-      font-size: em(20px, $bfs);
-      line-height: em(22px, $bfs);
-      width: 34%;
-      vertical-align: middle;
-    }
-
     button{
       width: 33%;
       height:em(75px, $bfs);
@@ -86,6 +79,12 @@ div.menu {
 
       &.minus{
         background-size:  em(25px, $bfs) auto ;
+
+      }
+
+      &.text{
+        background-size:  em(24px, $bfs) auto ;
+        width: 34%;
 
       }
 
