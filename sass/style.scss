@@ -7,25 +7,27 @@
 
 $screen: "only screen";
 
-@media #{$screen} and (min-width: 801px) { html{font-size:18px;} }
+@media #{$screen} and (min-width: 801px) { html{font-size:16px;} }
 
-@media #{$screen} and (min-width: 1000px) { html{font-size:20px;} }
+@media #{$screen} and (min-width: 1000px) { html{font-size:18px;} }
 
-@media #{$screen} and (min-width: 1200px) { html{font-size:22px;} }
+@media #{$screen} and (min-width: 1000px) and (min-height: 600px){ html{font-size:16px;} }
 
-@media #{$screen} and (min-width: 1400px) { html{font-size:24px;} }
+@media #{$screen} and (min-width: 1200px) { html{font-size:20px;} }
 
-@media #{$screen} and (min-width: 1600px) { html{font-size:26px;} }
+@media #{$screen} and (min-width: 1400px) { html{font-size:22px;} }
 
-@media #{$screen} and (min-width: 1800px) { html{font-size:28px;} }
+@media #{$screen} and (min-width: 1600px) { html{font-size:24px;} }
 
-@media #{$screen} and (min-width: 2000px) { html{font-size:30px;} }
+@media #{$screen} and (min-width: 1800px) { html{font-size:26px;} }
 
-@media #{$screen} and (min-width: 2200px) { html{font-size:32px;} }
+@media #{$screen} and (min-width: 2000px) { html{font-size:28px;} }
 
-@media #{$screen} and (min-width: 2400px) { html{font-size:34px;} }
+@media #{$screen} and (min-width: 2200px) { html{font-size:30px;} }
 
-@media #{$screen} and (min-width: 2600px) { html{font-size:36px;} }
+@media #{$screen} and (min-width: 2400px) { html{font-size:32px;} }
+
+@media #{$screen} and (min-width: 2600px) { html{font-size:34px;} }
 
 
 //Mobile
@@ -37,45 +39,55 @@ $screen: "only screen";
 
   @import 'mobile';
 
-  @media #{$screen} and (max-width:800px) { html{font-size:18px;} }
+  @media #{$screen} and (max-width:800px) { html{font-size:26px;} }
 
-  @media #{$screen} and (max-width:700px) { html{font-size:16px;} }
+  @media #{$screen} and (max-width:700px) { html{font-size:24px;} }
 
-  @media #{$screen} and (max-width:600px) { html{font-size:14px;} }
+  @media #{$screen} and (max-width:600px) { html{font-size:22px;} }
 
-  @media #{$screen} and (max-width:500px) { html{font-size:12px;} }
+  @media #{$screen} and (max-width:500px) { html{font-size:20px;} }
 
-  @media #{$screen} and (max-device-width:800px) { html{font-size:17px;} }
+  @media #{$screen} and (max-device-width:800px) { html{font-size:26px;} }
 
-  @media #{$screen} and (max-device-width:700px) { html{font-size:16px;} }
+  @media #{$screen} and (max-device-width:700px) { html{font-size:24px;} }
 
-  @media #{$screen} and (max-device-width:600px) { html{font-size:15px;} }
+  @media #{$screen} and (max-device-width:600px) { html{font-size:22px;} }
 
-  @media #{$screen} and (max-device-width:500px) { html{font-size:14px;} }
+  @media #{$screen} and (max-device-width:500px) { html{font-size:20px;} }
 
-  @media #{$screen} and (max-device-width:400px) { html{font-size:13px;} }
+  @media #{$screen} and (max-device-width:400px) { html{font-size:18px;} }
 
-  @media #{$screen} and (max-device-width:300px) { html{font-size:12px;} }
+  @media #{$screen} and (max-device-width:360px) { html{font-size:16px;} }
+
+  @media #{$screen} and (max-device-width:320px) { html{font-size:14px;} }
+
+  @media #{$screen} and (max-device-width:320px) { html{font-size:12px;} }
+
 
 
 }
 
 //retina
 
-@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2),
-#{$screen} and (min-resolution: 192dpi)
 
+@media  #{$screen} and (-webkit-min-device-pixel-ratio: 1.3)and (max-device-width:1280px), #{$screen} and (min-resolution: 124.8dpi)and (max-device-width:1280px)
 {
-
-  html{font-size:62px;}
+  html{font-size:18px;}
 }
+
+@media  #{$screen} and (-webkit-min-device-pixel-ratio: 1.3)and (max-device-width:320px), #{$screen} and (min-resolution: 124.8dpi)and (max-device-width:320px)
+{
+  html{font-size:16px;}
+}
+
+
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:2560px),
 #{$screen} and (min-resolution: 192dpi) and (max-device-width:2560px)
 
 {
 
-  html{font-size:44px;}
+  html{font-size:42px;}
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1600px),
@@ -83,7 +95,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:36px;}
+  html{font-size:20px;}
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px),
@@ -91,23 +103,37 @@ $screen: "only screen";
 
 {
 
-  html{font-size:22px;}
-}
-
-@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:960px),
-#{$screen} and (min-resolution: 192dpi) and (max-device-width:960px)
-
-{
-
-  html{font-size:20px;}
-}
-
-@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:800px),
-#{$screen} and (min-resolution: 192dpi) and (max-device-width:800px)
-
-{
   html{font-size:18px;}
 }
+
+
+@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (max-device-height:600px),
+#{$screen} and (min-resolution: 192dpi) and (max-device-width:1280px)  and (max-device-height:600px)
+
+{
+
+  html{font-size:16px;}
+}
+
+@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:320px),
+#{$screen} and (min-resolution: 192dpi) and (max-device-width:320px)
+
+{
+
+  html{font-size:16px;}
+}
+
+@media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:320px) and (max-device-height:480px),
+#{$screen} and (min-resolution: 192dpi) and (max-device-width:320px) and (max-device-height:480px)
+
+{
+
+  html{font-size:14px;}
+}
+
+
+
+
 
 
 

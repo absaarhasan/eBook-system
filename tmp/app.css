@@ -20,7 +20,7 @@ html, body {
 
 /*------------- ajax loader -----------------*/
 body {
-  background-image: url("../images/712.gif ");
+  background-image: url("../images/712.gif");
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -330,34 +330,37 @@ div.menu .note {
 
 @media only screen and (min-width: 801px) {
   html {
-    font-size: 18px; } }
+    font-size: 16px; } }
 @media only screen and (min-width: 1000px) {
   html {
-    font-size: 20px; } }
+    font-size: 18px; } }
+@media only screen and (min-width: 1000px) and (min-height: 600px) {
+  html {
+    font-size: 16px; } }
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 22px; } }
+    font-size: 20px; } }
 @media only screen and (min-width: 1400px) {
   html {
-    font-size: 24px; } }
+    font-size: 22px; } }
 @media only screen and (min-width: 1600px) {
   html {
-    font-size: 26px; } }
+    font-size: 24px; } }
 @media only screen and (min-width: 1800px) {
   html {
-    font-size: 28px; } }
+    font-size: 26px; } }
 @media only screen and (min-width: 2000px) {
   html {
-    font-size: 30px; } }
+    font-size: 28px; } }
 @media only screen and (min-width: 2200px) {
   html {
-    font-size: 32px; } }
+    font-size: 30px; } }
 @media only screen and (min-width: 2400px) {
   html {
-    font-size: 34px; } }
+    font-size: 32px; } }
 @media only screen and (min-width: 2600px) {
   html {
-    font-size: 36px; } }
+    font-size: 34px; } }
 @media only screen and (max-device-width: 800px), only screen and (max-width: 800px) {
   .mobile {
     display: inherit; }
@@ -382,51 +385,63 @@ div.menu .note {
       line-height: 1.83333rem; } }
 @media only screen and (max-device-width: 800px) and (max-width: 800px), only screen and (max-width: 800px) and (max-width: 800px) {
   html {
-    font-size: 18px; } }
+    font-size: 26px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 700px), only screen and (max-width: 800px) and (max-width: 700px) {
   html {
-    font-size: 16px; } }
+    font-size: 24px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 600px), only screen and (max-width: 800px) and (max-width: 600px) {
   html {
-    font-size: 14px; } }
+    font-size: 22px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 500px), only screen and (max-width: 800px) and (max-width: 500px) {
   html {
-    font-size: 12px; } }
+    font-size: 20px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 800px), only screen and (max-width: 800px) and (max-device-width: 800px) {
   html {
-    font-size: 17px; } }
+    font-size: 26px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 700px), only screen and (max-width: 800px) and (max-device-width: 700px) {
   html {
-    font-size: 16px; } }
+    font-size: 24px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 600px), only screen and (max-width: 800px) and (max-device-width: 600px) {
   html {
-    font-size: 15px; } }
+    font-size: 22px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 500px), only screen and (max-width: 800px) and (max-device-width: 500px) {
   html {
-    font-size: 14px; } }
+    font-size: 20px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 400px), only screen and (max-width: 800px) and (max-device-width: 400px) {
   html {
-    font-size: 13px; } }
-@media only screen and (max-device-width: 800px) and (max-device-width: 300px), only screen and (max-width: 800px) and (max-device-width: 300px) {
+    font-size: 18px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 360px), only screen and (max-width: 800px) and (max-device-width: 360px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 320px), only screen and (max-width: 800px) and (max-device-width: 320px) {
+  html {
+    font-size: 14px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 320px), only screen and (max-width: 800px) and (max-device-width: 320px) {
   html {
     font-size: 12px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  html {
-    font-size: 62px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 2560px), only screen and (min-resolution: 192dpi) and (max-device-width: 2560px) {
-  html {
-    font-size: 44px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1600px) {
-  html {
-    font-size: 36px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) {
-  html {
-    font-size: 22px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 960px), only screen and (min-resolution: 192dpi) and (max-device-width: 960px) {
-  html {
-    font-size: 20px; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 800px), only screen and (min-resolution: 192dpi) and (max-device-width: 800px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (max-device-width: 1280px), only screen and (min-resolution: 124.8dpi) and (max-device-width: 1280px) {
   html {
     font-size: 18px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (max-device-width: 320px), only screen and (min-resolution: 124.8dpi) and (max-device-width: 320px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 2560px), only screen and (min-resolution: 192dpi) and (max-device-width: 2560px) {
+  html {
+    font-size: 42px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1600px) {
+  html {
+    font-size: 20px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) {
+  html {
+    font-size: 18px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px) and (max-device-height: 600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) and (max-device-height: 600px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 320px), only screen and (min-resolution: 192dpi) and (max-device-width: 320px) {
+  html {
+    font-size: 16px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 320px) and (max-device-height: 480px), only screen and (min-resolution: 192dpi) and (max-device-width: 320px) and (max-device-height: 480px) {
+  html {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=app.css.map */
