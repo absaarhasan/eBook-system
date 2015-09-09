@@ -374,10 +374,11 @@ div.menu {
 /* ---------------- BOOK CSS ------------------*/
 
 html.fullbook {
-
+  height:auto;
   overflow: auto;
 
   body {
+    height:auto;
     overflow: auto;
     background-image:none;
 
@@ -456,7 +457,19 @@ html.fullbook {
     }
 
 
+  #preloader {
+    height:0;
+    background-repeat: no-repeat;
+    background-position: center center;
 
+    &.show{
+
+      height:5rem;
+      background-image: url("../images/712.gif");
+
+    }
+
+  }
 
 
 }

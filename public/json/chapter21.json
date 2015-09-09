@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "screen": "<p>We will build an enormous city in the sky&mdash;she will stand so tall that she will touch the very edge of space! She will absolutely breath-taking to behold, she will hold the shape of an enormous flower, and stand translucent against the skyline. This city shall be the most spectacular feat ever crafted by man, and and she will be known as &ldquo;Jerusalem.&rdquo;</p>",
+      "screen": "<p>We will build an enormous city in the sky&mdash;she will stand so tall that she will touch the very edge of space! She will be absolutely breath-taking to behold, she will hold the shape of an enormous flower, and stand translucent against the skyline. This city shall be the most spectacular feat ever crafted by man, and and she will be known as &ldquo;Jerusalem.&rdquo;</p>",
       "type": "story"
     },
     {
@@ -13,7 +13,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>Her roots will run deep into the earth, and heat from the earth&apos;s core will be used to power her. This will be her main source of energy, but equally she will take advantage of the wind, and solar energy as well. Her leaves will serve as giant sails to catch the wind, and her petals will be used as giant solar panels, to capture heat from the sun.</p>",
+      "screen": "<p>Her roots will run deep into the earth, and heat from the earth&apos;s core will be used to power her. This will be her main source of energy, but equally she will take advantage of wind, and solar energy as well. Her leaves will serve as giant sails to catch the wind, and her petals will be used as giant solar panels, to capture heat from the sun.</p>",
       "type": "story"
     },
     {
@@ -37,7 +37,7 @@
       "type": "image"
     },
     {
-      "screen": "<p>The upper levels of the Industrial Zone will be reserved entirely for space-craft manufactory. We will keep the space-centre quite close to the top of the city, to make it easier for us to launch, and dock our ships. This means that it will be located directly beneath the head of the city, other wise be known as the main city-flower.</p>",
+      "screen": "<p>The upper levels of the Industrial Zone will be reserved entirely for space-craft manufactory. We will keep the space-centre quite close to the top of the city, to make it easier for us to launch, and dock our ships. This means that it will be located directly beneath the head of the city, other wise known as the main city-flower.</p>",
       "type": "story"
     },
     {
@@ -45,7 +45,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>From a distance, the main city-plate will not look like a urban landscape, as such, there will be no buildings or streets to speak of. As people fly over, and look down from outer-space, they will see nothing but wide, open spaces. From outer-space, it will look like nothing but wide, open countryside!</p>",
+      "screen": "<p>From a distance, the main city-plate will not look like an urban landscape, as such, there will be no buildings or streets to speak of. As people fly over, and look down from above, they will see nothing but wide, open spaces. From outer-space, it will look like nothing but wide, open countryside!</p>",
       "type": "story"
     },
     {
@@ -85,7 +85,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>Jerusalem will be fitted with purpose-built shower units on every corner, and this will make it very easy to take a quick shower, pretty much anywhere we go. What&apos;s more, these shower-units will also serve as full-body hair-dryers; this will allow us to quickly jump in, and when we jump out, we&apos;ll be as dry as a bone!</p>",
+      "screen": "<p>Jerusalem will be fitted with purpose-built shower units on every corner, and this will make it very easy to take a quick shower, pretty much anywhere we go. What&apos;s more, these shower-units will also serve as full-body hair-dryers; this will allow us to quickly jump in, and jump out as dry as a bone!</p>",
       "type": "story"
     },
     {
@@ -93,11 +93,11 @@
       "type": "story"
     },
     {
-      "screen": "<p>Climbing will very much become a way of life in Jerusalem. This is because the whole city will be littered with enormous climbing-structures&mdash;some of them standing up to 400m tall! These things will essentially replace our need for ladders, and stairs, and the people shall climb them quite freely. In fact, they will actually leap around them like monkeys!</p>",
+      "screen": "<p>Climbing will very much become a way of life in Jerusalem. This is because the whole city will be littered with enormous climbing-structures&mdash;some of them standing up to 400m tall! These things will essentially replace our need for ladders, and stair-cases, and the people shall climb them quite freely. In fact, they will actually leap around them like monkeys!</p>",
       "type": "story"
     },
     {
-      "screen": "<p>But as they scale these enormous structures, no-one shall ever be afraid of falling. This is because the whole city will be fitted with an anti-gravity system. This system will be so effective, that sometimes people will jump just for fun! The anti-gravity system will make it impossible for anyone to fall more than a few short feet, before it activates and halts their descent.</p>",
+      "screen": "<p>But as they scale these enormous structures, they shall not be afraid of falling. This is because the whole city will be fitted with an anti-gravity system. This system will make it impossible for anyone to fall more than a few short feet, before it activates and halts their descent. In fact, the anti-gravity system will be so effective, that sometimes people will jump just for fun!</p>",
       "type": "story"
     },
     {
@@ -125,7 +125,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>And what&apos;s more, everyday will be a perfect sunny day in Jerusalem! This is because the city will be able to regulate its own atmosphere, and gravity. Not just in the main city-flower, but it will actually be able to do achieve this for a radius of over 1000km in all directions. This is so that it can regulate the weather conditions in the conservation areas, and farm-land below.</p>",
+      "screen": "<p>And what&apos;s more, everyday will be a perfect sunny day in Jerusalem! This is because the city will be able to regulate its own atmosphere, and gravity. Not just in the main city-flower, but it will actually be able to achieve this for a radius of over 1000km in all directions. This is so that it can regulate the weather conditions in the conservation areas, and farm-land below.</p>",
       "type": "story"
     },
     {
@@ -149,7 +149,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>Anyone who has passed the age of retirement will be entitled to join the Council of Elders&mdash;their wisdom, and life-experience will automatically grant the right to perform this role. These shall be seen as the most important, and highly respected people in the city, but at the same time, it won&apos;t really be anything more than a hang-out for the elderly.</p>",
+      "screen": "<p>Anyone who has passed the age of retirement will be entitled to join the Council of Elders&mdash;their wisdom, and life-experience will automatically grant them the right to perform this role. These shall be seen as the most important, and highly respected people in the city, but at the same time, it won&apos;t really be anything more than a hang-out for the elderly.</p>",
       "type": "story"
     },
     {
@@ -157,7 +157,7 @@
       "type": "story"
     },
     {
-      "screen": "<p>Our elders will be very highly regarded in the future. They will be deeply treasured for their knowledge and wisdom, and they will live very rich and meaningful lives. What&apos;s more, they will be doing this whilst enjoying by the most breath-taking, panoramic views across the entire globe. They will quite literally, be sitting on top of the world!</p>",
+      "screen": "<p>Our elders will be very highly regarded in the future. They will be deeply treasured for their knowledge and wisdom, and they will live very rich and meaningful lives. What&apos;s more, they will be doing this whilst enjoying the most breath-taking, panoramic views across the entire globe. They will quite literally, be sitting on top of the world!</p>",
       "type": "story"
     }
   ]

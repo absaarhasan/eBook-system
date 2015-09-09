@@ -1,6 +1,6 @@
 
 
-function MainCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout, $window) {
+function MainCtrl($scope, $state, $rootScope, $timeout) {
 
 
 
@@ -83,7 +83,6 @@ function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $
     var activeChapter = parseInt($stateParams.chapter);
 
     if (activeChapter > $scope.maxChapters || activeChapter < 1 ){
-
 
         $state.go('pagination', { chapter: 1, paragraph: 1 });
 
@@ -223,36 +222,63 @@ function PaginatedCtrl($scope, $http, $state, $sce , $stateParams, $rootScope, $
 
 }
 
-function FulltextCtrl($scope, $http, $state, $stateParams, $rootScope, $timeout, $sce) {
+function FulltextCtrl($scope, $http,  $sce, $window) {
 
     document.getElementsByTagName('html')[0].classList.add("fullbook");
-/*
-    $http.get('/json/full_book.json').success(function(data) {
+
+    var display = [], chapter = 1, loader = document.getElementById("preloader");
 
 
 
-            var screens = data.book;
+    function getChapter() {
 
-            var display = [];
+
+        loader.classList.add("show");
+
+        var jsonUrl = '/json/chapter' + chapter + '.json';
+
+        $http.get(jsonUrl).success(function(data) {
+
+            loader.classList.remove("show");
+
+            var screens = data.chapter;
 
             for (var key in screens) {
-                if(screens[key].type != 'text' ){
+
                     display.push({screen:screens[key].screen , type: screens[key].type});
-                }
+
             }
 
             $scope.activeScreens = display;
+
+            chapter ++;
+
 
 
         }).error(function() {
             console.log('ajax fail');
 
-        });;
+        });
+
+    };
+
+    getChapter(chapter);
+
+    $window.onscroll = function(ev) {
+
+
+        if (($window.innerHeight + $window.scrollY) >= document.body.scrollHeight - 200 && chapter <= $scope.maxChapters) {
+
+            getChapter(chapter);
+
+        }
+    };
+
 
     $scope.trustHtml = function(htmlCode)
     {
         return $sce.trustAsHtml(htmlCode);
     }
 
-*/
+
 }

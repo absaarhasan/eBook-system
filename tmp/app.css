@@ -202,8 +202,10 @@ div.menu {
 
 /* ---------------- BOOK CSS ------------------*/
 html.fullbook {
+  height: auto;
   overflow: auto; }
   html.fullbook body {
+    height: auto;
     overflow: auto;
     background-image: none; }
 
@@ -251,6 +253,13 @@ html.fullbook {
     margin-top: 25%;
     padding: 1em;
     font-size: 2em; }
+  .fulltext #preloader {
+    height: 0;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .fulltext #preloader.show {
+      height: 5rem;
+      background-image: url("../images/712.gif"); }
 
 .mobile {
   display: none; }
