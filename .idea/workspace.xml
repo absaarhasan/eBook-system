@@ -2,35 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608fdcd6-5685-4a6d-8126-a40e1daa2da9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_global.scssc" afterPath="$PROJECT_DIR$/.sass-cache/02c2dee151b389a024e0f2236bfac6ac9b10846a/_global.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_global.scss" afterPath="$PROJECT_DIR$/sass/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css.map" afterPath="$PROJECT_DIR$/tmp/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.css" afterPath="$PROJECT_DIR$/tmp/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter1.json" afterPath="$PROJECT_DIR$/public/json/chapter1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter10.json" afterPath="$PROJECT_DIR$/public/json/chapter10.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter11.json" afterPath="$PROJECT_DIR$/public/json/chapter11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter12.json" afterPath="$PROJECT_DIR$/public/json/chapter12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter13.json" afterPath="$PROJECT_DIR$/public/json/chapter13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter14.json" afterPath="$PROJECT_DIR$/public/json/chapter14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter15.json" afterPath="$PROJECT_DIR$/public/json/chapter15.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter16.json" afterPath="$PROJECT_DIR$/public/json/chapter16.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter17.json" afterPath="$PROJECT_DIR$/public/json/chapter17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter18.json" afterPath="$PROJECT_DIR$/public/json/chapter18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter19.json" afterPath="$PROJECT_DIR$/public/json/chapter19.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter2.json" afterPath="$PROJECT_DIR$/public/json/chapter2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter20.json" afterPath="$PROJECT_DIR$/public/json/chapter20.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter21.json" afterPath="$PROJECT_DIR$/public/json/chapter21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter22.json" afterPath="$PROJECT_DIR$/public/json/chapter22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter3.json" afterPath="$PROJECT_DIR$/public/json/chapter3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter4.json" afterPath="$PROJECT_DIR$/public/json/chapter4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter5.json" afterPath="$PROJECT_DIR$/public/json/chapter5.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter6.json" afterPath="$PROJECT_DIR$/public/json/chapter6.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter7.json" afterPath="$PROJECT_DIR$/public/json/chapter7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter8.json" afterPath="$PROJECT_DIR$/public/json/chapter8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/chapter9.json" afterPath="$PROJECT_DIR$/public/json/chapter9.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/controllers.js" afterPath="$PROJECT_DIR$/public/assets/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/fulltext.html" afterPath="$PROJECT_DIR$/public/views/fulltext.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/JSON_BUILDER.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/JSON_BUILDER.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/app2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/712.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cityFlower_sideElevation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cityFlower_topElevation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cover_pt_01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cover_pt_02.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/diagram_treeoflife.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_close_hover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_left_hover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_menu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_menu_hover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_right_hover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon_text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jeruselum_sideElevation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/social_facebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/social_googleplus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/social_twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/json/full_book.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/json/full_book_min.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/original.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/angular-resource.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/angular-resource.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/angular-route.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/angular-route.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/angular-ui-router.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/angular.hammer.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/angular.hammer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/angular.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/css/app.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/gestures.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/gestures.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/hammer.min.js" afterPath="$PROJECT_DIR$/public/assets/lib/hammer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter1.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter10.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter10.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter11.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter11.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter12.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter12.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter13.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter13.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter14.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter14.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter15.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter15.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter16.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter16.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter17.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter17.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter18.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter18.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter19.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter19.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter2.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter20.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter20.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter21.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter21.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter22.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter22.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter3.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter4.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter4.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter5.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter5.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter6.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter6.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter7.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter7.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter8.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter8.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/chapter9.json" afterPath="$PROJECT_DIR$/public/assets/json/chapter9.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/fulltext.html" afterPath="$PROJECT_DIR$/public/views/scroll/scroll.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/main.html" afterPath="$PROJECT_DIR$/public/views/shared/main.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/paginated.html" afterPath="$PROJECT_DIR$/public/views/paginated/paginated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/main.js" afterPath="$PROJECT_DIR$/tmp/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bookoflife.iws" />
@@ -55,41 +92,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/app2.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34602076" vertical-offset="0" max-vertical-offset="867">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="1905">
+              <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="780">
-              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="45" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3134" max-vertical-offset="4350">
-              <caret line="80" column="74" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fulltext.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/fulltext.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.7758621" vertical-offset="0" max-vertical-offset="580">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,30 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/websites/bookoflife/source/art/tbl_02/exports2/cover_pt_02.svg" />
-        <option value="$PROJECT_DIR$/public/images/cover_pt_01.svg" />
-        <option value="$PROJECT_DIR$/public/images/cover_pt_02.svg" />
-        <option value="$PROJECT_DIR$/public/images/social_facebook.svg" />
-        <option value="$PROJECT_DIR$/public/images/social_twitter.svg" />
-        <option value="$PROJECT_DIR$/public/images/social_googleplus.svg" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/public/assets/services.js" />
-        <option value="$PROJECT_DIR$/public/assets/directives.js" />
-        <option value="$PROJECT_DIR$/public/images/icon_close.svg" />
-        <option value="$PROJECT_DIR$/public/images/icon_plus.svg" />
-        <option value="$PROJECT_DIR$/public/images/icon_menu.svg" />
-        <option value="$PROJECT_DIR$/public/JSON_BUILDER.html" />
-        <option value="$PROJECT_DIR$/public/JSON_BUILDER.json" />
-        <option value="$PROJECT_DIR$/public/json/full_book_min.json" />
-        <option value="$PROJECT_DIR$/public/images/icon_minus.svg" />
-        <option value="$PROJECT_DIR$/svg/menu_system-assets/icon_close_hover.svg" />
-        <option value="$PROJECT_DIR$/sass/_desktop.scss" />
-        <option value="$PROJECT_DIR$/public/assets/app.js" />
-        <option value="$PROJECT_DIR$/sass/_mobile.scss" />
-        <option value="$PROJECT_DIR$/public/views/main.html" />
-        <option value="$PROJECT_DIR$/public/original.html" />
-        <option value="$PROJECT_DIR$/public/views/paginated.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/public/views/fulltext.html" />
         <option value="$PROJECT_DIR$/sass/_global.scss" />
@@ -154,6 +147,30 @@
         <option value="$PROJECT_DIR$/public/json/chapter10.json" />
         <option value="$PROJECT_DIR$/public/json/chapter20.json" />
         <option value="$PROJECT_DIR$/public/assets/controllers.js" />
+        <option value="$PROJECT_DIR$/public/assets/json/full_book.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/full_book_min.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/chapter1.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/chapter21.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/chapter22.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/chapter7.json" />
+        <option value="$PROJECT_DIR$/public/assets/app.js" />
+        <option value="$PROJECT_DIR$/public/views/scroll/scroll.js" />
+        <option value="$PROJECT_DIR$/public/views/paginated/paginated.js" />
+        <option value="$PROJECT_DIR$/public/views/shared/main.js" />
+        <option value="$PROJECT_DIR$/public/views/shared/main.html" />
+        <option value="$PROJECT_DIR$/public/views/shared/mainServices.js" />
+        <option value="$PROJECT_DIR$/public/views/paginated/paginated.html" />
+        <option value="$PROJECT_DIR$/public/views/paginated/paginatedController.js" />
+        <option value="$PROJECT_DIR$/public/views/paginated/paginatedServices.js" />
+        <option value="$PROJECT_DIR$/public/views/scroll/scroll.html" />
+        <option value="$PROJECT_DIR$/public/views/scroll/scrollController.js" />
+        <option value="$PROJECT_DIR$/public/views/scroll/scrollServices.js" />
+        <option value="$PROJECT_DIR$/tmp/main.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/tmp/min-safe/app.js" />
+        <option value="$PROJECT_DIR$/public/views/shared/mainController.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/public/app.js" />
       </list>
     </option>
   </component>
@@ -212,10 +229,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
-    <option name="y" value="283" />
-    <option name="width" value="1290" />
-    <option name="height" value="1233" />
+    <option name="x" value="342" />
+    <option name="y" value="260" />
+    <option name="width" value="1849" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -240,7 +257,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,7 +285,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,15 +389,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookoflife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-seed" />
     <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -327,26 +430,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/json" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/assets" />
-      <recent name="$PROJECT_DIR$/public/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/svg" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/views/scroll" />
+      <recent name="$PROJECT_DIR$/public/views/paginated" />
+      <recent name="$PROJECT_DIR$/public/views/shared" />
+      <recent name="$PROJECT_DIR$/public/assets/json" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -354,6 +456,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -392,29 +498,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="283" width="1290" height="1233" extended-state="0" />
+    <frame x="342" y="260" width="1849" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21697287" sideWeight="0.49839744" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29953918" sideWeight="0.4975097" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05312673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29953918" sideWeight="0.50249034" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968071" sideWeight="0.5004055" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07692308" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2411859" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968071" sideWeight="0.5004055" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21697287" sideWeight="0.5016026" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16934144" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -433,9 +539,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24968071" sideWeight="0.4993954" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -459,20 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/views/paginated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/original.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../hnwrd/sass/_mob.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="9585">
@@ -494,27 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/JSON_BUILDER.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51894563" vertical-offset="0" max-vertical-offset="7215">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/full_book_min.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
-          <caret line="0" column="140496" selection-start-line="0" selection-start-column="140496" selection-end-line="0" selection-end-column="140496" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/JSON_BUILDER.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63746226" vertical-offset="17428" max-vertical-offset="23940">
-          <caret line="1190" column="5" selection-start-line="1190" selection-start-column="5" selection-end-line="1190" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../hnwrd/public/research/jstech/views/addpoll.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09063444" vertical-offset="0" max-vertical-offset="1170">
@@ -526,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79305136" vertical-offset="120" max-vertical-offset="1590">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/icon_minus.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="686">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -557,38 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/icon_text.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28425655" vertical-offset="0" max-vertical-offset="686">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6283988" vertical-offset="124" max-vertical-offset="810">
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/original.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="75" max-vertical-offset="8520">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/full_book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.421686" vertical-offset="13031" max-vertical-offset="23940">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -599,24 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/paginated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.090361446" vertical-offset="0" max-vertical-offset="664">
-          <caret line="4" column="513" selection-start-line="4" selection-start-column="513" selection-end-line="4" selection-end-column="513" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5" vertical-offset="0" max-vertical-offset="2175">
           <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6317" max-vertical-offset="7200">
-          <caret line="438" column="8" selection-start-line="438" selection-start-column="8" selection-end-line="438" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -627,181 +649,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter2.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="555">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter4.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter4.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.625" vertical-offset="150" max-vertical-offset="1035">
           <caret line="51" column="217" selection-start-line="51" selection-start-column="217" selection-end-line="51" selection-end-column="217" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter5.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter5.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.607843" vertical-offset="119" max-vertical-offset="1335">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter6.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter6.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.529411" vertical-offset="717" max-vertical-offset="1575">
           <caret line="87" column="368" selection-start-line="87" selection-start-column="368" selection-end-line="87" selection-end-column="368" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter7.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="870">
-          <caret line="31" column="225" selection-start-line="31" selection-start-column="225" selection-end-line="31" selection-end-column="225" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter9.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter9.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.647059" vertical-offset="237" max-vertical-offset="1095">
           <caret line="35" column="220" selection-start-line="35" selection-start-column="220" selection-end-line="35" selection-end-column="220" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter3.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.705882" vertical-offset="177" max-vertical-offset="1035">
           <caret line="55" column="261" selection-start-line="55" selection-start-column="255" selection-end-line="55" selection-end-column="261" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter14.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter14.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0588236" vertical-offset="0" max-vertical-offset="735">
           <caret line="7" column="223" selection-start-line="7" selection-start-column="223" selection-end-line="7" selection-end-column="223" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter15.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter15.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.529411" vertical-offset="192" max-vertical-offset="1050">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77272725" vertical-offset="297" max-vertical-offset="1155">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter13.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter13.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75174826" vertical-offset="0" max-vertical-offset="858">
           <caret line="43" column="346" selection-start-line="43" selection-start-column="346" selection-end-line="43" selection-end-column="346" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter8.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter8.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63286716" vertical-offset="402" max-vertical-offset="1335">
           <caret line="63" column="345" selection-start-line="63" selection-start-column="345" selection-end-line="63" selection-end-column="345" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter16.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter16.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8251748" vertical-offset="177" max-vertical-offset="1035">
           <caret line="59" column="145" selection-start-line="59" selection-start-column="145" selection-end-line="59" selection-end-column="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter17.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter17.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24825175" vertical-offset="792" max-vertical-offset="1650">
           <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter19.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter19.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5084746" vertical-offset="990" max-vertical-offset="1875">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter18.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter18.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3881119" vertical-offset="477" max-vertical-offset="1335">
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter21.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7202797" vertical-offset="1692" max-vertical-offset="2550">
-          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter22.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69491524" vertical-offset="210" max-vertical-offset="1095">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter10.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter10.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6853147" vertical-offset="297" max-vertical-offset="1155">
           <caret line="59" column="346" selection-start-line="59" selection-start-column="346" selection-end-line="59" selection-end-column="346" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter20.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter20.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33566433" vertical-offset="492" max-vertical-offset="1350">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter12.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter12.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3638418" vertical-offset="83" max-vertical-offset="1275">
           <caret line="27" column="213" selection-start-line="27" selection-start-column="213" selection-end-line="27" selection-end-column="218" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/json/chapter11.json">
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter11.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6779661" vertical-offset="105" max-vertical-offset="990">
           <caret line="47" column="323" selection-start-line="47" selection-start-column="321" selection-end-line="47" selection-end-column="323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fulltext.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3134" max-vertical-offset="4350">
-          <caret line="80" column="74" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="780">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="45" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,10 +783,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/app2.js">
+    <entry file="file://$PROJECT_DIR$/sass/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34602076" vertical-offset="0" max-vertical-offset="867">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="21" />
+        <state vertical-scroll-proportion="9.382889" vertical-offset="0" max-vertical-offset="7200">
+          <caret line="446" column="0" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="865">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter21.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.416667" vertical-offset="1475" max-vertical-offset="2550">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter22.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.083334" vertical-offset="319" max-vertical-offset="1095">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/chapter7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="870">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/shared/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/shared/mainServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/paginated/paginated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0588236" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/paginated/paginatedServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.777778" vertical-offset="1713" max-vertical-offset="2730">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/paginated/paginatedController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111" vertical-offset="0" max-vertical-offset="720">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/scroll/scrollController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/scroll/scrollServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="7080">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/min-safe/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/shared/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8965517" vertical-offset="185" max-vertical-offset="795">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/scroll/scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18884893" vertical-offset="0" max-vertical-offset="556">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="1905">
+          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7758621" vertical-offset="0" max-vertical-offset="580">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>

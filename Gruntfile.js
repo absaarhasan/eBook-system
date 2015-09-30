@@ -1,13 +1,35 @@
 module.exports = function(grunt) {
 
+    grunt.loadNpmTasks('grunt-ng-annotate');
+
+    grunt.config('ngAnnotate', {
+        options: {
+            singleQuotes: true
+        },
+        app: {
+            files: {
+                'tmp/min-safe/scrollServices.js': ['public/views/scroll/scrollServices.js'],
+                'tmp/min-safe/scrollController.js': ['public/views/scroll/scrollController.js'],
+                'tmp/min-safe/paginatedServices.js': ['public/views/paginated/paginatedServices.js'],
+                'tmp/min-safe/paginatedController.js': ['public/views/paginated/paginatedController.js'],
+                'tmp/min-safe/mainServices.js': ['public/views/shared/mainServices.js'],
+                'tmp/min-safe/mainController.js': ['public/views/shared/mainController.js'],
+                'tmp/min-safe/app.js': ['public/app.js']
+            }
+        }
+    });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.config('concat', {
         scripts: {
             src: [
-                //'bower_components/jquery/dist/jquery.js',
-                //'bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.js',
-                'js/main.js'],
+                'tmp/min-safe/scrollServices.js',
+                'tmp/min-safe/scrollController.js',
+                'tmp/min-safe/paginatedServices.js',
+                'tmp/min-safe/paginatedController.js',
+                'tmp/min-safe/mainServices.js',
+                'tmp/min-safe/mainController.js',
+                'tmp/min-safe/app.js'],
             dest: 'tmp/main.js'
         }
     });
@@ -16,7 +38,7 @@ module.exports = function(grunt) {
     grunt.config('uglify', {
         scripts: {
             files: {
-                'public/assets/main.js' : 'tmp/main.js'
+                'public/assets/js/main.js' : 'tmp/main.js'
             }
         }
     });
@@ -34,7 +56,7 @@ module.exports = function(grunt) {
     grunt.config('cssmin', {
         app: {
             files: {
-                'public/assets/app.css': ['tmp/app.css']
+                'public/assets/css/app.css': ['tmp/app.css']
             }
         }
     });
@@ -69,8 +91,8 @@ module.exports = function(grunt) {
 
     grunt.config('watch', {
         scripts: {
-            files: ['js/**/*.js'],
-            tasks: ['concat:scripts', 'uglify'],
+            files: ['public/**/*.js'],
+            tasks: ['ngAnnotate','concat', 'uglify'],
 
             options: {
                 spawn: false
@@ -92,7 +114,7 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('build', "Builds the application.",
-        [/*'concat:scripts',*/ 'svgmin' , 'sass', 'cssmin'/*, 'uglify' */]);
+        [/*'concat:scripts', 'svgmin' ,*/ 'sass', 'cssmin', 'ngAnnotate', 'concat','uglify' ]);
 
 
 };
