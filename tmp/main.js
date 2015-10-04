@@ -83,7 +83,9 @@ function scrollService( $http, $sce, $window) {
     'use strict';
 
     angular.module('bol.scroll', ['ui.router'])
+
         .factory('scrollService', scrollService)
+        .controller('ScrollCtrl',  ScrollCtrl)
         .config(['$stateProvider', function($stateProvider) {
 
             $stateProvider
@@ -91,7 +93,7 @@ function scrollService( $http, $sce, $window) {
                     url: '/fullbook',
                     parent: 'main',
                     templateUrl: "views/scroll/scroll.html",
-                    controller: ScrollCtrl,
+                    controller: 'ScrollCtrl',
                     controllerAs: 'vm'
                 })
 
@@ -298,6 +300,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
     angular.module('bol.paginated', ['ui.router'])
         .factory('paginatedService', paginatedService)
+        .controller('PaginatedCtrl',  PaginatedCtrl)
         .config(['$stateProvider', function($stateProvider) {
 
             $stateProvider
@@ -305,7 +308,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
                     url: "/:chapter/:paragraph",
                     parent: 'main',
                     templateUrl: "views/paginated/paginated.html",
-                    controller: PaginatedCtrl,
+                    controller: 'PaginatedCtrl',
                     controllerAs: 'vm'
                 })
 
@@ -395,22 +398,22 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         angular.module('bol.main', ['ui.router'])
 
             .factory('mainService', mainService)
+            .controller('MainCtrl',  MainCtrl)
             .config(['$stateProvider', function($stateProvider) {
                 $stateProvider
 
                     .state('main', {
                         abstract: true,
                         templateUrl: "views/shared/main.html",
-                        controller: MainCtrl,
+                        controller: 'MainCtrl',
                         controllerAs: 'vm'
                     })
 
             }]);
 
+        MainCtrl.$inject = ['$rootScope', 'mainService'];
 
-        MainCtrl.$inject = ['$scope','$rootScope', 'mainService'];
-
-        function MainCtrl($scope , $rootScope, mainService) {
+        function MainCtrl($rootScope, mainService) {
 
             /* jshint validthis: true */
             var vm = this;

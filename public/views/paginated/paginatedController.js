@@ -4,6 +4,7 @@
 
     angular.module('bol.paginated', ['ui.router'])
         .factory('paginatedService', paginatedService)
+        .controller('PaginatedCtrl',  PaginatedCtrl)
         .config(function($stateProvider) {
 
             $stateProvider
@@ -11,7 +12,7 @@
                     url: "/:chapter/:paragraph",
                     parent: 'main',
                     templateUrl: "views/paginated/paginated.html",
-                    controller: PaginatedCtrl,
+                    controller: 'PaginatedCtrl',
                     controllerAs: 'vm'
                 })
 

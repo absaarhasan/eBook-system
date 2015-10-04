@@ -3,7 +3,9 @@
     'use strict';
 
     angular.module('bol.scroll', ['ui.router'])
+
         .factory('scrollService', scrollService)
+        .controller('ScrollCtrl',  ScrollCtrl)
         .config(['$stateProvider', function($stateProvider) {
 
             $stateProvider
@@ -11,7 +13,7 @@
                     url: '/fullbook',
                     parent: 'main',
                     templateUrl: "views/scroll/scroll.html",
-                    controller: ScrollCtrl,
+                    controller: 'ScrollCtrl',
                     controllerAs: 'vm'
                 })
 
