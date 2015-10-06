@@ -4,22 +4,26 @@
 describe('BOL Main Module', function() {
 
 
-    var scope, controller;
+    var scope, mainCtrl;
 
     beforeEach(module('bol.main'));
 
     beforeEach(inject(function ($controller, $rootScope) {
+
         scope = $rootScope.$new();
 
-        controller = $controller('MainCtrl', {
+        mainCtrl = $controller('MainCtrl', {
             $scope: scope
         });
 
     }));
 
-    it('Should do this', function () {
+    it('Main controller should exist', function () {
 
-        expect(controller.maxChapters).toBe(22);
+        expect(mainCtrl).toBeDefined();
+
+    //    expect(controller.maxChapters).toBe(22);
+
     });
 
 

@@ -22,14 +22,9 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
     return service;
 
-
-
     function activate(maxChapters) {
 
-        document.getElementsByTagName('html')[0].classList.remove("fullbook");
-
         var activeChapter = parseInt($stateParams.chapter);
-
 
         if (activeChapter > maxChapters || activeChapter < 1 ){
 
@@ -41,7 +36,6 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
             $http.get(jsonURL , { cache: true}).success(function(data) {
 
-
                 var screens = data.chapter;
 
                 var display = [];
@@ -52,9 +46,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
                     }
                 }
 
-
                 service.activeScreens.data = display;
-
 
                 updateDisplay($stateParams.paragraph);
 

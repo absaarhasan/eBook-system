@@ -19,20 +19,18 @@
 
         }]);
 
-    ScrollCtrl.$inject = ['$scope','scrollService'];
+    ScrollCtrl.$inject = ['scrollService','maxChapters'];
 
-    function ScrollCtrl($scope,scrollService) {
-
+    function ScrollCtrl(scrollService,maxChapters) {
 
         /* jshint validthis: true */
         var vm = this;
 
         vm.activeScreens = scrollService.activeScreens;
         vm.trustHtml = scrollService.trustHtml;
+        vm.preLoader = scrollService.preLoader.state;
 
-        scrollService.activate(($scope.$parent.vm.maxChapters))
-
-
+        scrollService.activate(maxChapters)
 
     }
 

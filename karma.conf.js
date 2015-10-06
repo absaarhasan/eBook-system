@@ -26,8 +26,10 @@ module.exports = function(config) {
       'public/views/shared/mainControllerSpec.js',
       'public/views/paginated/paginatedServices.js',
       'public/views/paginated/paginatedController.js',
+      'public/views/paginated/paginatedControllerSpec.js',
       'public/views/scroll/scrollServices.js',
       'public/views/scroll/scrollController.js',
+      'public/views/scroll/scrollControllerSpec.js',
       'public/app.js'
     ],
 

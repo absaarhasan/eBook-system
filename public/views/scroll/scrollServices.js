@@ -12,6 +12,7 @@ function scrollService( $http, $sce, $window) {
 
         activeScreens: { data: {} },
         trustHtml: trustHtml,
+        preLoader: { state: false },
         activate: activate
 
     };
@@ -19,8 +20,6 @@ function scrollService( $http, $sce, $window) {
     return service;
 
     function activate(maxChapters){
-
-        document.getElementsByTagName('html')[0].classList.add("fullbook");
 
         getChapter(chapter);
 
@@ -40,9 +39,7 @@ function scrollService( $http, $sce, $window) {
 
     function getChapter() {
 
-        var loader = document.getElementById("preloader");
-
-        loader.classList.add("show");
+        service.preLoader.state = true;
 
         var jsonUrl = 'assets/json/chapter' + chapter + '.json';
 
@@ -56,7 +53,7 @@ function scrollService( $http, $sce, $window) {
 
             }
 
-            loader.classList.remove("show");
+            service.preLoader.state = false;
 
             service.activeScreens.data = display;
 

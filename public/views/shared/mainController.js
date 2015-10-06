@@ -3,7 +3,7 @@
         'use strict';
 
         angular.module('bol.main', ['ui.router'])
-
+            .value('maxChapters', 22)
             .factory('mainService', mainService)
             .controller('MainCtrl',  MainCtrl)
             .config(function($stateProvider) {

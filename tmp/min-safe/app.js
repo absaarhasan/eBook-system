@@ -4,26 +4,13 @@
 
     angular.module('bol', ['ui.router','hmTouchEvents','bol.main','bol.paginated','bol.scroll'])
 
-        .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+        .config(['$urlRouterProvider', function( $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise("/");
+            $urlRouterProvider.otherwise("/1/1");
 
-        $stateProvider
-
-            .state('setup', {
-                url: "/",
-                controller: SetupCtrl
-            })
-
+        }]).run(['$rootScope', '$state', function ($rootScope, $state) {
+            $rootScope.$state = $state;
         }]);
-
-    SetupCtrl.$inject = ['$state'];
-
-    function SetupCtrl( $state) {
-
-        $state.go('pagination', { chapter: 1, paragraph: 1  });
-
-    };
 
 })();
 

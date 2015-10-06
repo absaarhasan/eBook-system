@@ -12,6 +12,7 @@ function scrollService( $http, $sce, $window) {
 
         activeScreens: { data: {} },
         trustHtml: trustHtml,
+        preLoader: { state: false },
         activate: activate
 
     };
@@ -19,8 +20,6 @@ function scrollService( $http, $sce, $window) {
     return service;
 
     function activate(maxChapters){
-
-        document.getElementsByTagName('html')[0].classList.add("fullbook");
 
         getChapter(chapter);
 
@@ -40,9 +39,7 @@ function scrollService( $http, $sce, $window) {
 
     function getChapter() {
 
-        var loader = document.getElementById("preloader");
-
-        loader.classList.add("show");
+        service.preLoader.state = true;
 
         var jsonUrl = 'assets/json/chapter' + chapter + '.json';
 
@@ -56,7 +53,7 @@ function scrollService( $http, $sce, $window) {
 
             }
 
-            loader.classList.remove("show");
+            service.preLoader.state = false;
 
             service.activeScreens.data = display;
 
@@ -99,20 +96,18 @@ function scrollService( $http, $sce, $window) {
 
         }]);
 
-    ScrollCtrl.$inject = ['$scope','scrollService'];
+    ScrollCtrl.$inject = ['scrollService','maxChapters'];
 
-    function ScrollCtrl($scope,scrollService) {
-
+    function ScrollCtrl(scrollService,maxChapters) {
 
         /* jshint validthis: true */
         var vm = this;
 
         vm.activeScreens = scrollService.activeScreens;
         vm.trustHtml = scrollService.trustHtml;
+        vm.preLoader = scrollService.preLoader.state;
 
-        scrollService.activate(($scope.$parent.vm.maxChapters))
-
-
+        scrollService.activate(maxChapters)
 
     }
 
@@ -141,14 +136,9 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
     return service;
 
-
-
     function activate(maxChapters) {
 
-        document.getElementsByTagName('html')[0].classList.remove("fullbook");
-
         var activeChapter = parseInt($stateParams.chapter);
-
 
         if (activeChapter > maxChapters || activeChapter < 1 ){
 
@@ -160,7 +150,6 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
             $http.get(jsonURL , { cache: true}).success(function(data) {
 
-
                 var screens = data.chapter;
 
                 var display = [];
@@ -171,9 +160,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
                     }
                 }
 
-
                 service.activeScreens.data = display;
-
 
                 updateDisplay($stateParams.paragraph);
 
@@ -315,9 +302,9 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         }]);
 
 
-   PaginatedCtrl.$inject = ['$scope','paginatedService'];
+   PaginatedCtrl.$inject = ['$scope','paginatedService' , 'maxChapters'];
 
-    function PaginatedCtrl($scope , paginatedService) {
+    function PaginatedCtrl($scope , paginatedService , maxChapters) {
 
         /* jshint validthis: true */
         var vm = this;
@@ -331,8 +318,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         vm.pressScreen = paginatedService.pressScreen;
         vm.resetDisplay = paginatedService.resetDisplay;
 
-
-        paginatedService.activate($scope.$parent.vm.maxChapters)
+        paginatedService.activate(maxChapters)
 
     }
 
@@ -396,7 +382,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         'use strict';
 
         angular.module('bol.main', ['ui.router'])
-
+            .value('maxChapters', 22)
             .factory('mainService', mainService)
             .controller('MainCtrl',  MainCtrl)
             .config(['$stateProvider', function($stateProvider) {
@@ -445,26 +431,13 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
     angular.module('bol', ['ui.router','hmTouchEvents','bol.main','bol.paginated','bol.scroll'])
 
-        .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+        .config(['$urlRouterProvider', function( $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise("/");
+            $urlRouterProvider.otherwise("/1/1");
 
-        $stateProvider
-
-            .state('setup', {
-                url: "/",
-                controller: SetupCtrl
-            })
-
+        }]).run(['$rootScope', '$state', function ($rootScope, $state) {
+            $rootScope.$state = $state;
         }]);
-
-    SetupCtrl.$inject = ['$state'];
-
-    function SetupCtrl( $state) {
-
-        $state.go('pagination', { chapter: 1, paragraph: 1  });
-
-    };
 
 })();
 

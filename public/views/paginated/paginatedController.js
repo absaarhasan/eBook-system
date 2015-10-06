@@ -19,9 +19,9 @@
         });
 
 
-   PaginatedCtrl.$inject = ['$scope','paginatedService'];
+   PaginatedCtrl.$inject = ['$scope','paginatedService' , 'maxChapters'];
 
-    function PaginatedCtrl($scope , paginatedService) {
+    function PaginatedCtrl($scope , paginatedService , maxChapters) {
 
         /* jshint validthis: true */
         var vm = this;
@@ -35,8 +35,7 @@
         vm.pressScreen = paginatedService.pressScreen;
         vm.resetDisplay = paginatedService.resetDisplay;
 
-
-        paginatedService.activate($scope.$parent.vm.maxChapters)
+        paginatedService.activate(maxChapters)
 
     }
 
