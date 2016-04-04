@@ -7,7 +7,7 @@
   outline: 0;
   margin: 0;
   padding: 0;
-  font-family: 'tk-arno-pro'; }
+  font-family: 'times'; }
 
 sup {
   line-height: 1em; }
@@ -71,7 +71,7 @@ div.menu {
     div.menu .social span a {
       color: #fff;
       text-decoration: none;
-      font-weight: 400;
+      font-weight: 300;
       position: relative;
       display: inline-block; }
   div.menu .social .icon {
@@ -140,6 +140,11 @@ div.menu {
   .screen.image {
     text-align: center;
     z-index: 4; }
+  .screen.info div {
+    background-color: red; }
+    .screen.info div p {
+      color: #fff;
+      text-align: center; }
   .screen img {
     height: 95%;
     width: auto;
@@ -232,7 +237,7 @@ html.fullbook {
     color: #333;
     text-align: justify;
     max-width: 45rem;
-    font-weight: 400;
+    font-weight: 300;
     display: block; }
   .fulltext sup {
     line-height: 1em; }
@@ -245,7 +250,7 @@ html.fullbook {
     line-height: 1.4em; }
     .fulltext ul li {
       color: #333;
-      font-weight: 400; }
+      font-weight: 300; }
   .fulltext h3 {
     background-color: red;
     text-align: center;
@@ -309,14 +314,23 @@ div.menu .note {
 .screen p {
   margin-top: 15%;
   font-size: 1.8rem;
-  line-height: 2.4rem;
+  line-height: 2.6rem;
   padding: 0 15%; }
 .screen ul {
   margin-top: 15%;
   padding: 0 15%; }
   .screen ul li {
     font-size: 1.8rem;
-    line-height: 2.4rem; }
+    line-height: 2.6rem; }
+.screen.info div {
+  margin-top: 15%;
+  padding: 1.8rem 4.6rem; }
+  .screen.info div p {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    margin-top: 0.9rem; }
+    .screen.info div p:first-child {
+      margin-top: 0; }
 
 /*------------- navigation options -----------------*/
 .menu-button {
@@ -382,10 +396,18 @@ div.menu .note {
 
   /*------------- Screen Div -----------------*/
   .screen p {
-    margin-top: 1.66667rem;
+    margin-top: 1.33333rem;
     font-size: 1.33333rem;
-    line-height: 2rem;
-    padding: 0 6%; }
+    line-height: 1.83333rem;
+    padding: 0 5%; }
+  .screen.info div {
+    padding: 1.33333rem 0 0 0;
+    margin-top: 0;
+    height: 100%; }
+    .screen.info div p {
+      margin-top: 1.5rem;
+      font-size: 1.33333rem;
+      line-height: 1.66667rem; }
   .screen ul {
     margin-top: 1.66667rem;
     padding: 0 6%; }
@@ -394,40 +416,40 @@ div.menu .note {
       line-height: 1.83333rem; } }
 @media only screen and (max-device-width: 800px) and (max-width: 800px), only screen and (max-width: 800px) and (max-width: 800px) {
   html {
-    font-size: 26px; } }
+    font-size: 28px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 700px), only screen and (max-width: 800px) and (max-width: 700px) {
   html {
-    font-size: 24px; } }
+    font-size: 26px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 600px), only screen and (max-width: 800px) and (max-width: 600px) {
   html {
-    font-size: 22px; } }
+    font-size: 24px; } }
 @media only screen and (max-device-width: 800px) and (max-width: 500px), only screen and (max-width: 800px) and (max-width: 500px) {
   html {
-    font-size: 20px; } }
+    font-size: 22px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 800px), only screen and (max-width: 800px) and (max-device-width: 800px) {
   html {
-    font-size: 26px; } }
+    font-size: 28px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 700px), only screen and (max-width: 800px) and (max-device-width: 700px) {
   html {
-    font-size: 24px; } }
+    font-size: 26px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 600px), only screen and (max-width: 800px) and (max-device-width: 600px) {
   html {
-    font-size: 22px; } }
+    font-size: 24px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 500px), only screen and (max-width: 800px) and (max-device-width: 500px) {
   html {
-    font-size: 20px; } }
+    font-size: 22px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 400px), only screen and (max-width: 800px) and (max-device-width: 400px) {
   html {
-    font-size: 18px; } }
+    font-size: 20px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 360px), only screen and (max-width: 800px) and (max-device-width: 360px) {
+  html {
+    font-size: 18px; } }
+@media only screen and (max-device-width: 800px) and (max-device-width: 320px), only screen and (max-width: 800px) and (max-device-width: 320px) {
   html {
     font-size: 16px; } }
 @media only screen and (max-device-width: 800px) and (max-device-width: 320px), only screen and (max-width: 800px) and (max-device-width: 320px) {
   html {
     font-size: 14px; } }
-@media only screen and (max-device-width: 800px) and (max-device-width: 320px), only screen and (max-width: 800px) and (max-device-width: 320px) {
-  html {
-    font-size: 12px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (max-device-width: 1280px), only screen and (min-resolution: 124.8dpi) and (max-device-width: 1280px) {
   html {
     font-size: 18px; } }
@@ -436,21 +458,21 @@ div.menu .note {
     font-size: 16px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 2560px), only screen and (min-resolution: 192dpi) and (max-device-width: 2560px) {
   html {
-    font-size: 42px; } }
+    font-size: 24px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1600px) {
   html {
-    font-size: 20px; } }
+    font-size: 22px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) {
   html {
-    font-size: 18px; } }
+    font-size: 20px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1280px) and (max-device-height: 600px), only screen and (min-resolution: 192dpi) and (max-device-width: 1280px) and (max-device-height: 600px) {
   html {
-    font-size: 16px; } }
+    font-size: 18px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 320px), only screen and (min-resolution: 192dpi) and (max-device-width: 320px) {
   html {
-    font-size: 16px; } }
+    font-size: 18px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 320px) and (max-device-height: 480px), only screen and (min-resolution: 192dpi) and (max-device-width: 320px) and (max-device-height: 480px) {
   html {
-    font-size: 14px; } }
+    font-size: 16px; } }
 
 /*# sourceMappingURL=app.css.map */

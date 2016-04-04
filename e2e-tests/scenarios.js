@@ -2,7 +2,6 @@
 
 describe('BOL app', function() {
 
-
   it('should automatically redirect to /1/1 when location hash/fragment is empty', function() {
     browser.get('http://localhost:5000');
     expect(browser.getLocationAbsUrl()).toMatch("/1/1");

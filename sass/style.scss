@@ -39,29 +39,29 @@ $screen: "only screen";
 
   @import 'mobile';
 
-  @media #{$screen} and (max-width:800px) { html{font-size:26px;} }
+  @media #{$screen} and (max-width:800px) { html{font-size:28px;} }
 
-  @media #{$screen} and (max-width:700px) { html{font-size:24px;} }
+  @media #{$screen} and (max-width:700px) { html{font-size:26px;} }
 
-  @media #{$screen} and (max-width:600px) { html{font-size:22px;} }
+  @media #{$screen} and (max-width:600px) { html{font-size:24px;} }
 
-  @media #{$screen} and (max-width:500px) { html{font-size:20px;} }
+  @media #{$screen} and (max-width:500px) { html{font-size:22px;} }
 
-  @media #{$screen} and (max-device-width:800px) { html{font-size:26px;} }
+  @media #{$screen} and (max-device-width:800px) { html{font-size:28px;} }
 
-  @media #{$screen} and (max-device-width:700px) { html{font-size:24px;} }
+  @media #{$screen} and (max-device-width:700px) { html{font-size:26px;} }
 
-  @media #{$screen} and (max-device-width:600px) { html{font-size:22px;} }
+  @media #{$screen} and (max-device-width:600px) { html{font-size:24px;} }
 
-  @media #{$screen} and (max-device-width:500px) { html{font-size:20px;} }
+  @media #{$screen} and (max-device-width:500px) { html{font-size:22px;} }
 
-  @media #{$screen} and (max-device-width:400px) { html{font-size:18px;} }
+  @media #{$screen} and (max-device-width:400px) { html{font-size:20px;} } //
 
-  @media #{$screen} and (max-device-width:360px) { html{font-size:16px;} }
+  @media #{$screen} and (max-device-width:360px) { html{font-size:18px;} } //
+
+  @media #{$screen} and (max-device-width:320px) { html{font-size:16px;} }
 
   @media #{$screen} and (max-device-width:320px) { html{font-size:14px;} }
-
-  @media #{$screen} and (max-device-width:320px) { html{font-size:12px;} }
 
 
 
@@ -87,7 +87,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:42px;}
+  html{font-size:24px;} //
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1600px),
@@ -95,7 +95,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:20px;}
+  html{font-size:22px;} //
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px),
@@ -103,7 +103,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:18px;}
+  html{font-size:20px;}
 }
 
 
@@ -112,7 +112,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:16px;}
+  html{font-size:18px;}
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:320px),
@@ -120,7 +120,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:16px;}
+  html{font-size:18px;}
 }
 
 @media  #{$screen} and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:320px) and (max-device-height:480px),
@@ -128,7 +128,7 @@ $screen: "only screen";
 
 {
 
-  html{font-size:14px;}
+  html{font-size:16px;}
 }
 
 

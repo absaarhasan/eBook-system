@@ -48,9 +48,9 @@ function scrollService( $http, $sce, $window) {
             var screens = data.chapter;
 
             for (var key in screens) {
-
-                display.push({screen:screens[key].screen , type: screens[key].type});
-
+                if(screens[key].type != 'info' ) {
+                    display.push({screen: screens[key].screen, type: screens[key].type});
+                }
             }
 
             service.preLoader.state = false;
@@ -317,6 +317,12 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         vm.trustHtml = paginatedService.trustHtml;
         vm.pressScreen = paginatedService.pressScreen;
         vm.resetDisplay = paginatedService.resetDisplay;
+        vm.test = function(){
+
+           $scope.$parent.vm.displayMenu(true)
+
+        }
+
 
         paginatedService.activate(maxChapters)
 
@@ -382,7 +388,7 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
         'use strict';
 
         angular.module('bol.main', ['ui.router'])
-            .value('maxChapters', 22)
+            .value('maxChapters', 10)
             .factory('mainService', mainService)
             .controller('MainCtrl',  MainCtrl)
             .config(['$stateProvider', function($stateProvider) {
@@ -397,9 +403,9 @@ function paginatedService( $http, $state, $sce, $stateParams, $rootScope, $timeo
 
             }]);
 
-        MainCtrl.$inject = ['$rootScope', 'mainService'];
+        MainCtrl.$inject = [ '$rootScope', 'mainService'];
 
-        function MainCtrl($rootScope, mainService) {
+        function MainCtrl( $rootScope, mainService) {
 
             /* jshint validthis: true */
             var vm = this;

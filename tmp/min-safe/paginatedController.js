@@ -34,6 +34,12 @@
         vm.trustHtml = paginatedService.trustHtml;
         vm.pressScreen = paginatedService.pressScreen;
         vm.resetDisplay = paginatedService.resetDisplay;
+        vm.test = function(){
+
+           $scope.$parent.vm.displayMenu(true)
+
+        }
+
 
         paginatedService.activate(maxChapters)
 

@@ -30,10 +30,29 @@ div.menu {
 
 
   p{
-    margin-top:em(20px, $bfs);
+    margin-top:em(16px, $bfs);
     font-size:em(16px, $bfs);
-    line-height:em(24px, $bfs);
-    padding: 0 6%;
+    line-height:em(22px, $bfs);
+    padding: 0 5%;
+  }
+
+  &.info div{
+
+    padding:em(16px, $bfs) 0 0 0;
+    margin-top:0;
+    height:100%;
+
+    p {
+
+      margin-top:em(18px, $bfs);
+      font-size:em(16px, $bfs);
+      line-height:em(20px, $bfs)
+
+    }
+
+
+
+
   }
 
   ul{

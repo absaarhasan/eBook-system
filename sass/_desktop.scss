@@ -115,7 +115,7 @@ div.menu {
   p{
       margin-top:15%;
       font-size:em(36px, $bfs);
-      line-height:em(48px, $bfs);
+      line-height:em(52px, $bfs);
       padding: 0 15%;
   }
 
@@ -125,9 +125,33 @@ div.menu {
 
     li{
       font-size:em(36px, $bfs);
-      line-height:em(48px, $bfs);
+      line-height:em(52px, $bfs);
 
     }
+  }
+
+  &.info div{
+
+    margin-top:15%;
+    padding: em(36px, $bfs) em(92px, $bfs);
+
+
+    p {
+
+      font-size:em(36px, $bfs);
+      line-height:em(42px, $bfs);
+      margin-top:em(18px, $bfs);
+
+
+      &:first-child {
+
+        margin-top:0;
+      }
+
+
+    }
+
+
   }
 
 }

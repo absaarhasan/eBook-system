@@ -48,9 +48,9 @@ function scrollService( $http, $sce, $window) {
             var screens = data.chapter;
 
             for (var key in screens) {
-
-                display.push({screen:screens[key].screen , type: screens[key].type});
-
+                if(screens[key].type != 'info' ) {
+                    display.push({screen: screens[key].screen, type: screens[key].type});
+                }
             }
 
             service.preLoader.state = false;

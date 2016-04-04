@@ -3,7 +3,7 @@
         'use strict';
 
         angular.module('bol.main', ['ui.router'])
-            .value('maxChapters', 22)
+            .value('maxChapters', 10)
             .factory('mainService', mainService)
             .controller('MainCtrl',  MainCtrl)
             .config(['$stateProvider', function($stateProvider) {
@@ -18,9 +18,9 @@
 
             }]);
 
-        MainCtrl.$inject = ['$rootScope', 'mainService'];
+        MainCtrl.$inject = [ '$rootScope', 'mainService'];
 
-        function MainCtrl($rootScope, mainService) {
+        function MainCtrl( $rootScope, mainService) {
 
             /* jshint validthis: true */
             var vm = this;
